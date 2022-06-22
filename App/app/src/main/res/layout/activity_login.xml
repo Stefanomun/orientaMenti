@@ -7,7 +7,13 @@
     android:background="#926151"
     tools:context=".Login">
 
-    <!--MANCA TASTO INDIETRO -->
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="indietro"
+        android:src="@drawable/indietro"/>
 
     <ImageView
         android:layout_width="250dp"
@@ -19,7 +25,7 @@
     <EditText
         android:background="@drawable/button_border"
         android:layout_marginTop="350dp"
-        android:layout_height="wrap_content"
+        android:layout_height="25dp"
         android:layout_width="380dp"
         android:layout_centerHorizontal="true"
         android:textColor="@color/black"
@@ -30,7 +36,7 @@
     <EditText
         android:background="@drawable/button_border"
         android:layout_marginTop="400dp"
-        android:layout_height="wrap_content"
+        android:layout_height="25dp"
         android:layout_width="380dp"
         android:layout_centerHorizontal="true"
         android:textColor="@color/black"
@@ -44,6 +50,16 @@
         android:background="@drawable/button2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="450dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/times_new_roman"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="25dp"
+        android:text="REGISTRATI"
+        android:background="@drawable/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="700dp"
         android:textColor="@color/black"
         android:fontFamily="@font/times_new_roman"/>
 </RelativeLayout>

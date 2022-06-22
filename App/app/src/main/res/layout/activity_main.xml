@@ -34,8 +34,8 @@
             <RelativeLayout
                 android:layout_width="140dp"
                 android:layout_height="170dp"
-                android:onClick="chiamaLogin"
-                android:background="@drawable/button_border">
+                android:background="@drawable/button_border"
+                android:onClick="chiamaLogin">
 
                 <ImageView
                     android:id="@+id/imageStud"
@@ -64,8 +64,8 @@
                 android:layout_width="140dp"
                 android:layout_height="170dp"
                 android:layout_marginLeft="10dp"
-                android:onClick="chiamaLogin"
-                android:background="@drawable/button_border">
+                android:background="@drawable/button_border"
+                android:onClick="chiamaLogin">
 
                 <ImageView
                     android:id="@+id/imageDoc"
@@ -102,8 +102,8 @@
             <RelativeLayout
                 android:layout_width="140dp"
                 android:layout_height="170dp"
-                android:onClick="chiamaLogin"
-                android:background="@drawable/button_border">
+                android:background="@drawable/button_border"
+                android:onClick="chiamaLogin">
 
                 <ImageView
                     android:id="@+id/imageHR"

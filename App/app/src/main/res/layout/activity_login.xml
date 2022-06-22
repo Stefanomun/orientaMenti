@@ -24,6 +24,7 @@
 
     <EditText
         android:background="@drawable/button_border"
+        android:id="@+id/mail"
         android:layout_marginTop="350dp"
         android:layout_height="25dp"
         android:layout_width="380dp"
@@ -35,6 +36,7 @@
 
     <EditText
         android:background="@drawable/button_border"
+        android:id="@+id/password"
         android:layout_marginTop="400dp"
         android:layout_height="25dp"
         android:layout_width="380dp"
@@ -46,6 +48,7 @@
     <Button
         android:layout_width="170dp"
         android:layout_height="25dp"
+        android:onClick="accesso"
         android:text="ACCEDI"
         android:background="@drawable/button2"
         android:layout_centerHorizontal="true"

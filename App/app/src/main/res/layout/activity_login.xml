@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#926151"
+    tools:context=".Login">
+
+    <!--MANCA TASTO INDIETRO -->
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:background="@drawable/button_border"
+        android:layout_marginTop="350dp"
+        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:fontFamily="@font/times_new_roman"
+        android:textAlignment="center"
+        android:inputType="text"/>
+
+    <EditText
+        android:background="@drawable/button_border"
+        android:layout_marginTop="400dp"
+        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="25dp"
+        android:text="ACCEDI"
+        android:background="@drawable/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/times_new_roman"/>
+</RelativeLayout>

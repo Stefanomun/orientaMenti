@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="sfondo">#EAB884</color>
+    <color name="sfondoMarrone">#926151</color>
+    <color name="bottoneRosso">#C64C4C</color>
 </resources>

@@ -13,6 +13,18 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".LoginError"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardHR"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardDocente"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardStudente"
+            android:exported="false" />
+        <activity
             android:name=".Login"
             android:exported="false" />
         <activity

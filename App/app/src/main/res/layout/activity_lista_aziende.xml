@@ -52,6 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:letterSpacing="-0.02"
+            android:layout_marginTop="4dp"
             android:text="Lista Aziende"
             android:textColor="@color/black"
             android:textSize="35dp"

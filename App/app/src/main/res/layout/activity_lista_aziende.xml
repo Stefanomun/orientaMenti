@@ -83,19 +83,19 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/image_border"
                         android:scaleType="centerInside"
-                        app:srcCompat="@drawable/studente" />
+                        app:srcCompat="@drawable/meta_logo" />
 
                     <TextView
                         android:id="@+id/azienda1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
                         android:layout_alignParentTop="true"
-                        android:layout_alignParentRight="true"
-                        android:layout_marginRight="80dp"
+                        android:layout_toRightOf="@id/imageAzienda1"
                         android:letterSpacing="-0.02"
-                        android:text="Azienda 1"
+                        android:text="Meta"
                         android:textColor="@color/black"
-                        android:textSize="30dp"
+                        android:textSize="25dp"
                         android:textStyle="bold"
                         android:typeface="serif" />
 
@@ -104,8 +104,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/azienda1"
                         android:layout_alignLeft="@+id/azienda1"
-                        android:layout_marginTop="15dp"
-                        android:text="Salerno - via Roma, 23"
+                        android:text="California - Menlo Park"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:typeface="serif" />
@@ -129,19 +128,19 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/image_border"
                         android:scaleType="centerInside"
-                        app:srcCompat="@drawable/studente" />
+                        app:srcCompat="@drawable/intesa_logo" />
 
                     <TextView
                         android:id="@+id/azienda2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
                         android:layout_alignParentTop="true"
-                        android:layout_alignParentRight="true"
-                        android:layout_marginRight="80dp"
+                        android:layout_toRightOf="@id/imageAzienda2"
                         android:letterSpacing="-0.02"
-                        android:text="Azienda 2"
+                        android:text="Intesa SanPaolo"
                         android:textColor="@color/black"
-                        android:textSize="30dp"
+                        android:textSize="25dp"
                         android:textStyle="bold"
                         android:typeface="serif" />
 
@@ -150,8 +149,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/azienda2"
                         android:layout_alignLeft="@+id/azienda2"
-                        android:layout_marginTop="15dp"
-                        android:text="Nola - P.zza Duomo, 12"
+                        android:text="Torino - P.zza San Carlo, 156"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:typeface="serif" />
@@ -175,19 +173,19 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/image_border"
                         android:scaleType="centerInside"
-                        app:srcCompat="@drawable/studente" />
+                        app:srcCompat="@drawable/lidl_logo" />
 
                     <TextView
                         android:id="@+id/azienda3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
                         android:layout_alignParentTop="true"
-                        android:layout_alignParentRight="true"
-                        android:layout_marginRight="80dp"
+                        android:layout_toRightOf="@id/imageAzienda3"
                         android:letterSpacing="-0.02"
-                        android:text="Azienda 3"
+                        android:text="Lidl Italia"
                         android:textColor="@color/black"
-                        android:textSize="30dp"
+                        android:textSize="25dp"
                         android:textStyle="bold"
                         android:typeface="serif" />
 
@@ -196,8 +194,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/azienda3"
                         android:layout_alignLeft="@+id/azienda3"
-                        android:layout_marginTop="15dp"
-                        android:text="Roma - Via Cassia, 1"
+                        android:text="Verona - Via Augusto Ruddo, 36"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:typeface="serif" />
@@ -221,19 +218,19 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/image_border"
                         android:scaleType="centerInside"
-                        app:srcCompat="@drawable/studente" />
+                        app:srcCompat="@drawable/oracle_logo" />
 
                     <TextView
                         android:id="@+id/azienda4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
                         android:layout_alignParentTop="true"
-                        android:layout_alignParentRight="true"
-                        android:layout_marginRight="80dp"
+                        android:layout_toRightOf="@id/imageAzienda4"
                         android:letterSpacing="-0.02"
-                        android:text="Azienda 4"
+                        android:text="Oracle"
                         android:textColor="@color/black"
-                        android:textSize="30dp"
+                        android:textSize="25dp"
                         android:textStyle="bold"
                         android:typeface="serif" />
 
@@ -242,8 +239,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/azienda4"
                         android:layout_alignLeft="@+id/azienda4"
-                        android:layout_marginTop="15dp"
-                        android:text="Milano - P.zza Gae Aulenti, 34"
+                        android:text="Milano - Via Massimo D'azeglio"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:typeface="serif" />

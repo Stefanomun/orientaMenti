@@ -12,5 +12,13 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <!-- To change the popup menu and app text color  -->
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:fontFamily">serif-monospace</item>
+
+        <!-- To change the background of options menu-->
+        <item name="android:itemBackground">@color/sfondo</item>
     </style>
 </resources>

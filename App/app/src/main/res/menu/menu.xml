@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@style/Theme.MyApplication">
+    <item
+        android:id="@+id/profilo"
+        android:orderInCategory="100"
+        android:title="Profilo" />
+    <item
+        android:id="@+id/messaggi"
+        android:orderInCategory="100"
+        android:title="Messaggi" />
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        />
+</menu>

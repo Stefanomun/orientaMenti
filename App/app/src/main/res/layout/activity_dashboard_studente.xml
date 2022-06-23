@@ -5,7 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/sfondoMarrone"
-    tools:context=".DashboardStudente">
+    tools:context=".DashboardStudente"
+    android:theme="@style/Theme.MyApplication">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:popupTheme="@style/mio"
+        app:collapseIcon="@drawable/menu"/>
 
     <ImageView
         android:layout_width="60dp"
@@ -13,7 +24,8 @@
         android:layout_alignParentRight="true"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
-        android:src="@drawable/menu" />
+        app:srcCompat="@drawable/menu"
+        android:onClick="menu"/>
 
     <ImageView
         android:layout_width="170dp"

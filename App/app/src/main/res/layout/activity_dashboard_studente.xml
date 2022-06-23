@@ -63,6 +63,7 @@
                 android:layout_width="140dp"
                 android:layout_height="170dp"
                 android:background="@drawable/button_border"
+                android:onClick="listaAziende"
                 >
 
                 <ImageView

@@ -34,6 +34,8 @@
         android:layout_marginTop="40dp"
         app:srcCompat="@drawable/logo" />
 
+
+
     <!--Parte giallo ocra dello schermo, dove saranno presenti le cards -->
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,6 +44,18 @@
         android:layout_marginTop="300dp"
         android:background="@drawable/border"
         android:orientation="vertical">
+
+        <!--View della scritta Lista Aziende -->
+        <TextView
+            android:id="@+id/ListaAziende"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:letterSpacing="-0.02"
+            android:text="Lista Aziende"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:typeface="serif" />
 
         <!--View per poter effettuare lo scroll -->
         <ScrollView
@@ -54,17 +68,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <!--View della scritta Lista Aziende -->
-                <TextView
-                    android:id="@+id/ListaAziende"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:letterSpacing="-0.02"
-                    android:text="Lista Aziende"
-                    android:textColor="@color/black"
-                    android:textSize="35dp"
-                    android:typeface="serif" />
+
+
 
                 <!--Prima Card -->
                 <RelativeLayout

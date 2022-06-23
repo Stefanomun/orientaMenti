@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".ListaAziende"
+            android:exported="false" />
+        <activity
             android:name=".LoginError"
             android:exported="false" />
         <activity

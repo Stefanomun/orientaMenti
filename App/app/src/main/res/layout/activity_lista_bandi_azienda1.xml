@@ -24,8 +24,8 @@
         android:layout_alignParentRight="true"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
-        app:popupTheme="@style/menuHam"
-        app:collapseIcon="@drawable/menu"/>
+        app:collapseIcon="@drawable/menu"
+        app:popupTheme="@style/menuHam" />
 
     <ImageView
         android:layout_width="60dp"
@@ -42,8 +42,8 @@
         android:layout_height="250dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        app:srcCompat="@drawable/logo"
-        android:onClick="home" />
+        android:onClick="home"
+        app:srcCompat="@drawable/logo" />
 
     <!--Parte giallo ocra dello schermo, dove saranno presenti le cards -->
     <LinearLayout
@@ -73,7 +73,101 @@
             android:layout_height="match_parent"
             android:layout_marginTop="10dp">
 
+            <!--Layout che è servito per creare la zona dove inserire le cards -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
+                <!--Prima Card -->
+                <RelativeLayout
+                    android:id="@+id/card1"
+                    android:layout_width="380dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_border"
+                    android:onClick="Bando1">
+
+                    <ImageView
+                        android:id="@+id/imageBando1"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/bando1" />
+
+                    <TextView
+                        android:id="@+id/bando1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/imageBando1"
+                        android:letterSpacing="-0.02"
+                        android:text="Bando per Software Developer"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/bando1"
+                        android:layout_alignLeft="@+id/bando1"
+                        android:text="Indetto da: Meta"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:typeface="serif" />
+
+                </RelativeLayout>
+
+                <!--Seconda Card -->
+                <RelativeLayout
+                    android:id="@+id/card2"
+                    android:layout_width="380dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/card1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_border"
+                    android:onClick="intesa">
+
+                    <ImageView
+                        android:id="@+id/imageBando2"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/bando2" />
+
+                    <TextView
+                        android:id="@+id/bando2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/imageBando2"
+                        android:letterSpacing="-0.02"
+                        android:text="Bando per Project Manager"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/bando2"
+                        android:layout_alignLeft="@+id/bando2"
+                        android:text="Indetto da: Meta"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:typeface="serif" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
 
         </ScrollView>
 

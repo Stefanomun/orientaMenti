@@ -36,13 +36,15 @@
         app:srcCompat="@drawable/menu"
         android:onClick="menu"/>
 
-    <!--Logo del app -->
+    <!--Logo dell' app -->
     <ImageView
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        android:onClick="home"
+        />
 
 
     <!--Parte giallo ocra dello schermo, dove saranno presenti le cards -->
@@ -86,7 +88,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
-                    android:onClick="chiamaAzienda1">
+                    android:onClick="meta">
 
                     <ImageView
                         android:id="@+id/imageAzienda1"
@@ -131,7 +133,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
-                    android:onClick="chiamaAzienda2">
+                    android:onClick="intesa">
 
                     <ImageView
                         android:id="@+id/imageAzienda2"
@@ -176,7 +178,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
-                    android:onClick="chiamaAzienda3">
+                    android:onClick="lidl">
 
                     <ImageView
                         android:id="@+id/imageAzienda3"
@@ -221,7 +223,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
-                    android:onClick="chiamaAzienda4">
+                    android:onClick="oracle">
 
                     <ImageView
                         android:id="@+id/imageAzienda4"

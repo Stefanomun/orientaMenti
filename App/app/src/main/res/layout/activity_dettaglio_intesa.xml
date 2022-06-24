@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sfondoMarrone"
+    tools:context=".DettaglioIntesa">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="indietro"
+        android:src="@drawable/undo" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:popupTheme="@style/menuHam"
+        app:collapseIcon="@drawable/menu"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@drawable/menu"
+        android:onClick="menu"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/logo"
+        android:onClick="home"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/times_new_roman_bold"
+            android:text="Intesa San Paolo"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/intesa_logo" />
+
+                <RelativeLayout
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="85dp"
+                    android:background="@drawable/button_border">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/times_new_roman_bold"
+                        android:text="Settore"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/times_new_roman"
+                        android:text="Economia"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="60dp"
+                        android:fontFamily="@font/times_new_roman_bold"
+                        android:text="Sede"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="82dp"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/times_new_roman"
+                        android:text="Torino (TO) - P.zza San Carlo - 156"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="112dp"
+                        android:fontFamily="@font/times_new_roman_bold"
+                        android:text="Contatti"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="134dp"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/times_new_roman"
+                        android:text="+39 011 555 1"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="255dp"
+                    android:background="@drawable/button_border">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/times_new_roman_bold"
+                        android:text="Descrizione Azienda"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/times_new_roman"
+                        android:text="Intesa Sanpaolo è un istituto bancario italiano attivo dal 1º gennaio 2007, nato dalla fusione tra Banca Intesa e Sanpaolo IMI. Ha sede legale e amministrativa nella città di Torino e sede secondaria nella città di Milano. Le sue origini risalgono al 1563 con la fondazione dell'Istituto Bancario San Paolo di Torino."
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+                </RelativeLayout>
+
+                <Button
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="465dp"
+                    android:background="@drawable/button3"
+                    android:text="Visualizza la lista dei bandi attivi"
+                    android:textSize="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/times_new_roman_bold"
+                    android:textColor="@color/black"
+                    android:onClick="indietro"/>
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

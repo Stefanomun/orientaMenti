@@ -17,4 +17,29 @@ public class ListaAziende extends MenuStudente {
         Intent indietro = new Intent(ListaAziende.this, DashboardStudente.class);
         startActivity(indietro);
     }
+
+    public void meta(View view){
+        Intent meta = new Intent(ListaAziende.this, DettaglioMeta.class);
+        startActivity(meta);
+    }
+
+    public void intesa(View view){
+        Intent intesa = new Intent(ListaAziende.this, DettaglioIntesa.class);
+        startActivity(intesa);
+    }
+
+    public void lidl(View view){
+        Intent lidl = new Intent(ListaAziende.this, DettaglioLidl.class);
+        startActivity(lidl);
+    }
+
+    public void oracle(View view){
+        Intent oracle = new Intent(ListaAziende.this, DettaglioOracle.class);
+        startActivity(oracle);
+    }
+
+    public void home(View view){
+        Intent home = new Intent(ListaAziende.this, DashboardStudente.class);
+        startActivity(home);
+    }
 }

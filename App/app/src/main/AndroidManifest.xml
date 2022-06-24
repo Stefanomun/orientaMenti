@@ -8,11 +8,23 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/logo"
-        android:roundIcon="@drawable/logo"
         android:label="orientaMenti"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
+        <activity
+            android:name=".DettaglioOracle"
+            android:exported="false" />
+        <activity
+            android:name=".DettaglioLidl"
+            android:exported="false" />
+        <activity
+            android:name=".DettaglioIntesa"
+            android:exported="false" />
+        <activity
+            android:name=".DettaglioMeta"
+            android:exported="false" />
         <activity
             android:name=".ListaAziende"
             android:exported="false" />

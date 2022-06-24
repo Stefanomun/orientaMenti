@@ -5,13 +5,11 @@
         <item name="cornerSize">50dp</item>
         <item name="color">@color/white</item>
     </style>
-    <style name="mio" parent="Theme.MyApplication">
-        <!-- To change the popup menu and app text color  -->
+    <style name="menuHam" parent="Theme.MyApplication">
         <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">30dp</item>
-        <item name="android:fontFamily">serif-monospace</item>
-
-        <!-- To change the background of options menu-->
-        <item name="android:itemBackground">#E5E5E5</item>
+        <item name="android:popupElevation">8dp</item>
+        <item name="fontFamily">@font/times_new_roman_bold</item>
+        <item name="android:textSize">25sp</item>
+        <item name="popupMenuBackground">@drawable/popup_menu</item>
     </style>
 </resources>

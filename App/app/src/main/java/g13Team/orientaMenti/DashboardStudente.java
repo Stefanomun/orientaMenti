@@ -18,4 +18,9 @@ public class DashboardStudente extends MenuStudente {
         Intent lista = new Intent(DashboardStudente.this, ListaAziende.class);
         startActivity(lista);
     }
+
+    public void listaBandi(View view){
+        Intent lista = new Intent(DashboardStudente.this, ListaBandi.class);
+        startActivity(lista);
+    }
 }

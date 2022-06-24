@@ -16,7 +16,7 @@
         android:onClick="indietro"
         android:src="@drawable/undo" />
 
-    <!--Freccia per tornare alla schermata precedente -->
+    <!--Menu -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="0dp"

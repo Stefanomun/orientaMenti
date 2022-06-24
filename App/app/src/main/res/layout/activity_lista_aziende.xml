@@ -17,14 +17,24 @@
         android:src="@drawable/undo" />
 
     <!--Freccia per tornare alla schermata precedente -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:popupTheme="@style/menuHam"
+        app:collapseIcon="@drawable/menu"/>
+
     <ImageView
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_alignParentRight="true"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
-        android:onClick="indietro"
-        android:src="@drawable/menu" />
+        app:srcCompat="@drawable/menu"
+        android:onClick="menu"/>
 
     <!--Logo del app -->
     <ImageView

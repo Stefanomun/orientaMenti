@@ -1,10 +1,12 @@
-package g13Team.orientaMenti;
+package g13Team.orientaMenti.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import g13Team.orientaMenti.R;
 
 public class LoginError extends AppCompatActivity {
 

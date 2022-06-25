@@ -3,11 +3,10 @@ package g13Team.orientaMenti;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
+
+import g13Team.orientaMenti.login.Login;
 
 public class MainActivity extends AppCompatActivity {
 

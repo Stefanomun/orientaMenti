@@ -29,34 +29,34 @@
             android:name=".ListaBandi"
             android:exported="false" />
         <activity
-            android:name=".DettaglioOracle"
+            android:name=".studente.DettaglioOracle"
             android:exported="false" />
         <activity
-            android:name=".DettaglioLidl"
+            android:name=".studente.DettaglioLidl"
             android:exported="false" />
         <activity
-            android:name=".DettaglioIntesa"
+            android:name=".studente.DettaglioIntesa"
             android:exported="false" />
         <activity
-            android:name=".DettaglioMeta"
+            android:name=".studente.DettaglioMeta"
             android:exported="false" />
         <activity
-            android:name=".ListaAziende"
+            android:name=".studente.ListaAziende"
             android:exported="false" />
         <activity
-            android:name=".LoginError"
+            android:name=".login.LoginError"
             android:exported="false" />
         <activity
-            android:name=".DashboardHR"
+            android:name=".hr.DashboardHR"
             android:exported="false" />
         <activity
-            android:name=".DashboardDocente"
+            android:name=".hr.DashboardDocente"
             android:exported="false" />
         <activity
-            android:name=".DashboardStudente"
+            android:name=".studente.DashboardStudente"
             android:exported="false" />
         <activity
-            android:name=".Login"
+            android:name=".login.Login"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

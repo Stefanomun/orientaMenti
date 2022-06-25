@@ -1,12 +1,17 @@
-package g13Team.orientaMenti;
+package g13Team.orientaMenti.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+
+import g13Team.orientaMenti.docente.DashboardDocente;
+import g13Team.orientaMenti.hr.DashboardHR;
+import g13Team.orientaMenti.studente.DashboardStudente;
+import g13Team.orientaMenti.MainActivity;
+import g13Team.orientaMenti.R;
 
 public class Login extends AppCompatActivity {
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/sfondoMarrone"
-    tools:context=".LoginError">
+    tools:context=".login.LoginError">
 
     <ImageView
         android:layout_width="250dp"

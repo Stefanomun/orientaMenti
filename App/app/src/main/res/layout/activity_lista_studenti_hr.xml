@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#926151"
-    tools:context=".ListaBandi">
+    tools:context=".ListaStudentiHR">
 
     <!--Freccia per tornare alla schermata precedente -->
     <ImageView
@@ -104,7 +104,7 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
                         android:layout_marginTop="20dp"
-                        android:layout_marginLeft="40dp"
+                        android:layout_marginLeft="30dp"
                         android:layout_toRightOf="@id/imageStudente1"
                         android:letterSpacing="-0.02"
                         android:text="Marta Rossi"
@@ -116,10 +116,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="15dp"
+                        android:layout_marginTop="10dp"
                         android:layout_below="@+id/studente1"
                         android:layout_alignLeft="@+id/studente1"
-                        android:text="Classe 5 A"
+                        android:text="Istituto ''Alfano I'' - Salerno(SA)"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:typeface="serif" />
@@ -135,25 +135,26 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
-                    android:onClick="intesa">
+                    android:onClick="studente2">
 
                     <ImageView
-                        android:id="@+id/imageBando2"
+                        android:id="@+id/imageStudente2"
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:background="@drawable/image_border"
                         android:scaleType="centerInside"
-                        app:srcCompat="@drawable/bando2" />
+                        app:srcCompat="@drawable/stefano" />
 
                     <TextView
-                        android:id="@+id/bando2"
+                        android:id="@+id/studente2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
                         android:layout_marginTop="20dp"
-                        android:layout_toRightOf="@id/imageBando2"
+                        android:layout_marginLeft="30dp"
+                        android:layout_toRightOf="@id/imageStudente2"
                         android:letterSpacing="-0.02"
-                        android:text="Bando per Project Manager"
+                        android:text="Stefano Mungiello"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:textStyle="bold"
@@ -162,9 +163,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/bando2"
-                        android:layout_alignLeft="@+id/bando2"
-                        android:text="Indetto da: Meta"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/studente2"
+                        android:layout_alignLeft="@+id/studente2"
+                        android:text="Università degli studi di Salerno - Fisciano(SA)"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:typeface="serif" />
@@ -183,22 +185,23 @@
                     android:onClick="lidl">
 
                     <ImageView
-                        android:id="@+id/imageBando3"
+                        android:id="@+id/imageStudente3"
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:background="@drawable/image_border"
                         android:scaleType="centerInside"
-                        app:srcCompat="@drawable/bando3" />
+                        app:srcCompat="@drawable/antonio" />
 
                     <TextView
-                        android:id="@+id/bando3"
+                        android:id="@+id/studente3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
                         android:layout_marginTop="20dp"
-                        android:layout_toRightOf="@id/imageBando3"
+                        android:layout_marginLeft="30dp"
+                        android:layout_toRightOf="@id/imageStudente3"
                         android:letterSpacing="-0.02"
-                        android:text="Bando per membro crew Lidl"
+                        android:text="Antonio Sellitto"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:textStyle="bold"
@@ -207,9 +210,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/bando3"
-                        android:layout_alignLeft="@+id/bando3"
-                        android:text="Indetto da: Lidl"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/studente3"
+                        android:layout_alignLeft="@+id/studente3"
+                        android:text="Università degli studi di Salerno - Fisciano(SA)"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:typeface="serif" />
@@ -228,22 +232,23 @@
                     android:onClick="oracle">
 
                     <ImageView
-                        android:id="@+id/imageBando4"
+                        android:id="@+id/imageStudente4"
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:background="@drawable/image_border"
                         android:scaleType="centerInside"
-                        app:srcCompat="@drawable/bando4" />
+                        app:srcCompat="@drawable/sabato" />
 
                     <TextView
-                        android:id="@+id/bando4"
+                        android:id="@+id/studente4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
                         android:layout_marginTop="20dp"
-                        android:layout_toRightOf="@id/imageBando4"
+                        android:layout_marginLeft="30dp"
+                        android:layout_toRightOf="@id/imageStudente4"
                         android:letterSpacing="-0.02"
-                        android:text="Bando per consulente aziendale"
+                        android:text="Sabato Genovese"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:textStyle="bold"
@@ -252,9 +257,57 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/bando4"
-                        android:layout_alignLeft="@+id/bando4"
-                        android:text="Indetto da: Intesa SanPaolo"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/studente4"
+                        android:layout_alignLeft="@+id/studente4"
+                        android:text="Università degli studi di Salerno - Fisciano(SA)"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:typeface="serif" />
+
+                </RelativeLayout>
+
+                <!--Quinta card -->
+                <RelativeLayout
+                    android:id="@+id/card5"
+                    android:layout_width="380dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/card3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_border"
+                    android:onClick="oracle">
+
+                    <ImageView
+                        android:id="@+id/imageStudente5"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/angela" />
+
+                    <TextView
+                        android:id="@+id/studente5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_toRightOf="@id/imageStudente5"
+                        android:letterSpacing="-0.02"
+                        android:text="Angela De Martino"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/studente5"
+                        android:layout_alignLeft="@+id/studente5"
+                        android:text="Università degli studi di Salerno - Fisciano(SA)"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:typeface="serif" />

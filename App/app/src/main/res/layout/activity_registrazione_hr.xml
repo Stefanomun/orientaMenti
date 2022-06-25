@@ -30,7 +30,7 @@
             android:layout_centerInParent="true"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/studentessa"
+            android:src="@drawable/hr"
             app:shapeAppearanceOverlay="@style/roundImage" />
     </RelativeLayout>
 
@@ -47,15 +47,15 @@
             android:layout_marginTop="50dp"
             android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/nome"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:text="Nome: "
-            android:textSize="20dp"
-            android:textColor="@color/black"
-            android:typeface="serif"/>
+            <TextView
+                android:id="@+id/nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Nome: "
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:typeface="serif"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -93,11 +93,11 @@
                 android:inputType="text"/>
 
             <TextView
-                android:id="@+id/istituto"
+                android:id="@+id/azienda"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:text="Istituto di provenienza: "
+                android:text="Azienda: "
                 android:layout_marginTop="10dp"
                 android:textSize="20dp"
                 android:textColor="@color/black"
@@ -106,33 +106,9 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/edit_istituto_prov"
+                android:id="@+id/edit_azienda"
                 android:background="@drawable/button_border"
                 android:textColor="@color/black"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:fontFamily="@font/times_new_roman"
-                android:textAlignment="center"
-                android:inputType="text"/>
-
-            <TextView
-                android:id="@+id/competenze"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:text="Competenze e Skills: "
-                android:layout_marginTop="10dp"
-                android:textSize="20dp"
-                android:textColor="@color/black"
-                android:typeface="serif"/>
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/edit_competenze"
-                android:background="@drawable/button_border"
-                android:textColor="@color/black"
-                android:padding="25dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:fontFamily="@font/times_new_roman"

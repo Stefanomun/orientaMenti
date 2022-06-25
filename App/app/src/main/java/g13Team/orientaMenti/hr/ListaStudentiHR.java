@@ -1,8 +1,10 @@
-package g13Team.orientaMenti;
+package g13Team.orientaMenti.hr;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import g13Team.orientaMenti.R;
 
 public class ListaStudentiHR extends AppCompatActivity {
 

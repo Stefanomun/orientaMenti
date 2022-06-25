@@ -14,7 +14,7 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".ListaStudentiHR"
+            android:name=".hr.ListaStudentiHR"
             android:exported="false" />
         <activity
             android:name=".studente.BandoSoftwareDeveloper"

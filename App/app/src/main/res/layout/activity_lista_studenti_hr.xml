@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#926151"
-    tools:context=".ListaStudentiHR">
+    tools:context=".hr.ListaStudentiHR">
 
     <!--Freccia per tornare alla schermata precedente -->
     <ImageView

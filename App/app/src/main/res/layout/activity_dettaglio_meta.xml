@@ -181,17 +181,17 @@
                     android:textSize="18dp" />
             </RelativeLayout>
 
-            <Button
-                android:layout_width="190dp"
-                android:layout_height="40dp"
-                android:layout_marginTop="465dp"
-                android:background="@drawable/button3"
-                android:text="Visualizza bandi attivi"
-                android:textSize="15dp"
-                android:layout_centerHorizontal="true"
-                android:fontFamily="@font/times_new_roman_bold"
-                android:textColor="@color/black"
-                android:onClick="indietro"/>
+                <Button
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="465dp"
+                    android:background="@drawable/button3"
+                    android:fontFamily="@font/times_new_roman_bold"
+                    android:onClick="indietro"
+                    android:text="Visualizza bandi attivi"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
             </RelativeLayout>
         </ScrollView>
     </LinearLayout>

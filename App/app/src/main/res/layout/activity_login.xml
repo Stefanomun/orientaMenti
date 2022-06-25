@@ -60,6 +60,7 @@
         android:layout_width="170dp"
         android:layout_height="25dp"
         android:text="REGISTRATI"
+        android:onClick="registrati"
         android:background="@drawable/button2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="700dp"

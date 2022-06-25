@@ -12,13 +12,16 @@ import g13Team.orientaMenti.hr.DashboardHR;
 import g13Team.orientaMenti.studente.DashboardStudente;
 import g13Team.orientaMenti.MainActivity;
 import g13Team.orientaMenti.R;
+import g13Team.orientaMenti.studente.RegistrazioneStudente;
 
 public class Login extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
     }
 
     public void indietro(View view){
@@ -47,5 +50,9 @@ public class Login extends AppCompatActivity {
             Intent intent = new Intent(Login.this, LoginError.class);
             startActivity(intent);
         }
+    }
+    public void registrati(View v){
+        Intent in= new Intent(getApplicationContext(), RegistrazioneStudente.class);
+        startActivity(in);
     }
 }

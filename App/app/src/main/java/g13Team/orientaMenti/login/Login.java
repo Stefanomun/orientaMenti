@@ -23,9 +23,7 @@ public class Login extends AppCompatActivity {
 
     public void indietro(View view){
         Intent intent = new Intent(Login.this, MainActivity.class);
-        intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(intent);
-        this.finish();
     }
 
     public void accesso(View view){
@@ -39,21 +37,15 @@ public class Login extends AppCompatActivity {
         }
         else if(email.equals("paolo.bianchi@docenti.it") && password.equals("docente")){
             Intent intent = new Intent(Login.this, DashboardDocente.class);
-            intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
             startActivity(intent);
-            this.finish();
         }
         else if(email.equals("marco.verdi@manager.it") && password.equals("manager")){
             Intent intent = new Intent(Login.this, DashboardHR.class);
-            intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
             startActivity(intent);
-            this.finish();
         }
         else{
             Intent intent = new Intent(Login.this, LoginError.class);
-            intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
             startActivity(intent);
-            this.finish();
         }
     }
 }

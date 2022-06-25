@@ -21,9 +21,7 @@ public class MenuStudente extends Menu {
 
             case R.id.logout:
                 Intent intent = new Intent(this, Login.class);
-                intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
                 startActivity(intent);
-                this.finish();
                 break;
         }
         return true;

@@ -19,15 +19,11 @@ public class DettaglioLidl extends MenuStudente {
 
     public void indietro(View view){
         Intent intent = new Intent(DettaglioLidl.this, ListaAziende.class);
-        intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(intent);
-        this.finish();
     }
 
     public void home(View view){
         Intent intent = new Intent(DettaglioLidl.this, DashboardStudente.class);
-        intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(intent);
-        this.finish();
     }
 }

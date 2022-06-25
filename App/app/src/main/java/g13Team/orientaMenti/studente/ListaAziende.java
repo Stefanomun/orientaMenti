@@ -41,8 +41,7 @@ public class ListaAziende extends MenuStudente {
     }
 
     private void startIntent(Intent intent) {
-        intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(intent);
-        this.finish();
     }
+
 }

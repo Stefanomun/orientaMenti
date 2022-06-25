@@ -19,6 +19,5 @@ public class MainActivity extends AppCompatActivity {
     public void chiamaLogin(View view){
         Intent intent = new Intent(MainActivity.this, Login.class);
         startActivity(intent);
-        this.finish();
     }
 }

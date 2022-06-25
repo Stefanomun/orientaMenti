@@ -68,6 +68,9 @@
             android:name=".hr.RegistrazioneHR"
             android:exported="true"/>
         <activity
+            android:name=".docente.RegistrazioneDocente"
+            android:exported="true"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
 

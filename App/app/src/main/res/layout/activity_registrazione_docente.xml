@@ -28,7 +28,7 @@
             android:layout_centerInParent="true"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/hr"
+            android:src="@drawable/docente"
             app:shapeAppearanceOverlay="@style/roundImage" />
     </RelativeLayout>
 
@@ -91,11 +91,11 @@
                 android:inputType="text"/>
 
             <TextView
-                android:id="@+id/azienda"
+                android:id="@+id/istituto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:text="Azienda: "
+                android:text="Istituto: "
                 android:layout_marginTop="10dp"
                 android:textSize="20dp"
                 android:textColor="@color/black"
@@ -104,7 +104,30 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/edit_azienda"
+                android:id="@+id/edit_istituto"
+                android:background="@drawable/button_border"
+                android:textColor="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="@font/times_new_roman"
+                android:textAlignment="center"
+                android:inputType="text"/>
+
+            <TextView
+                android:id="@+id/mat_insegnamento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Materia di insegnamento: "
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:typeface="serif"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_materia"
                 android:background="@drawable/button_border"
                 android:textColor="@color/black"
                 android:layout_marginLeft="25dp"
@@ -166,13 +189,12 @@
                 android:layout_marginTop="30dp"
                 android:background="@drawable/button3"
                 android:fontFamily="@font/times_new_roman_bold"
-                android:onClick="regHR"
+                android:onClick="regDoc"
                 android:text="Registrati"
                 android:textColor="@color/black"
                 android:textSize="15dp" />
         </LinearLayout>
 
     </LinearLayout>
-
 
 </RelativeLayout>

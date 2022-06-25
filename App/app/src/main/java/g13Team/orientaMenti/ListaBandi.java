@@ -7,8 +7,6 @@ import android.view.View;
 import g13Team.orientaMenti.menu.MenuStudente;
 import g13Team.orientaMenti.studente.BandoSoftwareDeveloper;
 import g13Team.orientaMenti.studente.DashboardStudente;
-import g13Team.orientaMenti.studente.DettaglioMeta;
-import g13Team.orientaMenti.studente.ListaAziende;
 
 public class ListaBandi extends MenuStudente {
 
@@ -31,7 +29,7 @@ public class ListaBandi extends MenuStudente {
     }
 
     public void bando1(View view){
-        Intent intent = new Intent(ListaBandi.this, BandoSoftwareDeveloper.class);
+        Intent intent = new Intent(this, BandoSoftwareDeveloper.class);
         startActivity(intent);
     }
 

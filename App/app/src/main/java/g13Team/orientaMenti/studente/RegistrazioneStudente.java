@@ -20,4 +20,8 @@ public class RegistrazioneStudente extends AppCompatActivity {
         Intent in = new Intent(getApplicationContext(), Login.class);
         startActivity(in);
     }
+    public void registrati(View v){
+        Intent in= new Intent(getApplicationContext(), Login.class);
+        startActivity(in);
+    }
 }

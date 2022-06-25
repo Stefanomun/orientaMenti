@@ -13,16 +13,21 @@ public class DettaglioLidl extends MenuStudente {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dettaglio_lidl);
+
         super.create(this);
     }
 
     public void indietro(View view){
-        Intent indietro = new Intent(DettaglioLidl.this, ListaAziende.class);
-        startActivity(indietro);
+        Intent intent = new Intent(DettaglioLidl.this, ListaAziende.class);
+        intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
+        startActivity(intent);
+        this.finish();
     }
 
     public void home(View view){
-        Intent home = new Intent(DettaglioLidl.this, DashboardStudente.class);
-        startActivity(home);
+        Intent intent = new Intent(DettaglioLidl.this, DashboardStudente.class);
+        intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
+        startActivity(intent);
+        this.finish();
     }
 }

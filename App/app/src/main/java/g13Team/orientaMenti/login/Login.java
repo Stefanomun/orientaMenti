@@ -22,8 +22,10 @@ public class Login extends AppCompatActivity {
     }
 
     public void indietro(View view){
-        Intent indietro = new Intent(Login.this, MainActivity.class);
-        startActivity(indietro);
+        Intent intent = new Intent(Login.this, MainActivity.class);
+        intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
+        startActivity(intent);
+        this.finish();
     }
 
     public void accesso(View view){
@@ -36,16 +38,22 @@ public class Login extends AppCompatActivity {
             startActivity(accesso);
         }
         else if(email.equals("paolo.bianchi@docenti.it") && password.equals("docente")){
-            Intent accesso = new Intent(Login.this, DashboardDocente.class);
-            startActivity(accesso);
+            Intent intent = new Intent(Login.this, DashboardDocente.class);
+            intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
+            startActivity(intent);
+            this.finish();
         }
         else if(email.equals("marco.verdi@manager.it") && password.equals("manager")){
-            Intent accesso = new Intent(Login.this, DashboardHR.class);
-            startActivity(accesso);
+            Intent intent = new Intent(Login.this, DashboardHR.class);
+            intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
+            startActivity(intent);
+            this.finish();
         }
         else{
-            Intent accesso = new Intent(Login.this, LoginError.class);
-            startActivity(accesso);
+            Intent intent = new Intent(Login.this, LoginError.class);
+            intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
+            startActivity(intent);
+            this.finish();
         }
     }
 }

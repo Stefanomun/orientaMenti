@@ -17,32 +17,32 @@ public class ListaAziende extends MenuStudente {
     }
 
     public void indietro(View view){
-        Intent indietro = new Intent(ListaAziende.this, DashboardStudente.class);
-        startActivity(indietro);
+        startIntent(new Intent(ListaAziende.this, DashboardStudente.class));
     }
 
     public void meta(View view){
-        Intent meta = new Intent(ListaAziende.this, DettaglioMeta.class);
-        startActivity(meta);
+        startIntent(new Intent(ListaAziende.this, DettaglioMeta.class));
     }
 
     public void intesa(View view){
-        Intent intesa = new Intent(ListaAziende.this, DettaglioIntesa.class);
-        startActivity(intesa);
+        startIntent(new Intent(ListaAziende.this, DettaglioIntesa.class));
     }
 
     public void lidl(View view){
-        Intent lidl = new Intent(ListaAziende.this, DettaglioLidl.class);
-        startActivity(lidl);
+        startIntent(new Intent(ListaAziende.this, DettaglioLidl.class));
     }
 
     public void oracle(View view){
-        Intent oracle = new Intent(ListaAziende.this, DettaglioOracle.class);
-        startActivity(oracle);
+        startIntent(new Intent(ListaAziende.this, DettaglioOracle.class));
     }
 
     public void home(View view){
-        Intent home = new Intent(ListaAziende.this, DashboardStudente.class);
-        startActivity(home);
+        startIntent(new Intent(ListaAziende.this, DashboardStudente.class));
+    }
+
+    private void startIntent(Intent intent) {
+        intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
+        startActivity(intent);
+        this.finish();
     }
 }

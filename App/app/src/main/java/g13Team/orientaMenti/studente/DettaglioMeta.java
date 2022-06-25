@@ -14,17 +14,22 @@ public class DettaglioMeta extends MenuStudente {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dettaglio_meta);
+
         super.create(this);
     }
 
     public void indietro(View view){
-        Intent indietro = new Intent(DettaglioMeta.this, ListaAziende.class);
-        startActivity(indietro);
+        Intent intent = new Intent(DettaglioMeta.this, ListaAziende.class);
+        intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
+        startActivity(intent);
+        this.finish();
     }
 
     public void home(View view){
-        Intent home = new Intent(DettaglioMeta.this, DashboardStudente.class);
-        startActivity(home);
+        Intent intent = new Intent(DettaglioMeta.this, DashboardStudente.class);
+        intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
+        startActivity(intent);
+        this.finish();
     }
 
 }

@@ -17,7 +17,9 @@ public class LoginError extends AppCompatActivity {
     }
 
     public void indietro(View view){
-        Intent indietro = new Intent(LoginError.this, Login.class);
-        startActivity(indietro);
+        Intent intent = new Intent(LoginError.this, Login.class);
+        intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
+        startActivity(intent);
+        this.finish();
     }
 }

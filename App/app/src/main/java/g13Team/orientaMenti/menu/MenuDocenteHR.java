@@ -1,9 +1,12 @@
 package g13Team.orientaMenti.menu;
 
+import android.content.Intent;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import g13Team.orientaMenti.MainActivity;
 import g13Team.orientaMenti.R;
+import g13Team.orientaMenti.login.Login;
 
 public class MenuDocenteHR extends Menu {
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -13,7 +16,10 @@ public class MenuDocenteHR extends Menu {
                 break;
 
             case R.id.logout:
-                Toast.makeText(menu, "Logout", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplicationContext(), Login.class);
+                intent.setFlags(intent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
+                startActivity(intent);
+                this.finish();
                 break;
         }
         return true;

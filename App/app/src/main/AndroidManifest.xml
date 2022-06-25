@@ -50,7 +50,7 @@
             android:name=".hr.DashboardHR"
             android:exported="false" />
         <activity
-            android:name=".hr.DashboardDocente"
+            android:name=".docente.DashboardDocente"
             android:exported="false" />
         <activity
             android:name=".studente.DashboardStudente"

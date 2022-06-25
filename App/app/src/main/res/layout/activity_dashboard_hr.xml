@@ -7,13 +7,25 @@
     android:background="@color/sfondoMarrone"
     tools:context=".studente.DashboardStudente">
 
+    <!--Menu -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:popupTheme="@style/menuHam"
+        app:collapseIcon="@drawable/menu"/>
+
     <ImageView
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_alignParentRight="true"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
-        android:src="@drawable/menu" />
+        android:onClick="menu"
+        app:srcCompat="@drawable/menu" />
 
     <ImageView
         android:layout_width="170dp"

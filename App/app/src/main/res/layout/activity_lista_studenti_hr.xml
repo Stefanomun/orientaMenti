@@ -182,7 +182,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
-                    android:onClick="lidl">
+                    android:onClick="studente3">
 
                     <ImageView
                         android:id="@+id/imageStudente3"
@@ -229,7 +229,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
-                    android:onClick="oracle">
+                    android:onClick="studente4">
 
                     <ImageView
                         android:id="@+id/imageStudente4"
@@ -272,11 +272,11 @@
                     android:id="@+id/card5"
                     android:layout_width="380dp"
                     android:layout_height="150dp"
-                    android:layout_below="@+id/card3"
+                    android:layout_below="@+id/card4"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
-                    android:onClick="oracle">
+                    android:onClick="studente5">
 
                     <ImageView
                         android:id="@+id/imageStudente5"

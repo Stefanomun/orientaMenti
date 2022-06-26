@@ -1,10 +1,11 @@
 package g13Team.orientaMenti.docente;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-public class ListaStudentiDocente extends AppCompatActivity {
+import g13Team.orientaMenti.R;
+import g13Team.orientaMenti.menu.MenuDocenteHR;
+
+public class ListaStudentiDocente extends MenuDocenteHR {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

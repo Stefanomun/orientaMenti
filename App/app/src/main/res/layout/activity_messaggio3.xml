@@ -96,7 +96,7 @@
                     android:layout_marginRight="10dp"
                     android:gravity="center"
                     android:textStyle="italic"
-                    android:text="Salve, siamo Co-founder di Oracle Italia.\nOracle è una societa' multinazionale del settore informatico con sede principale ad Austin in Texas.\nLe aziende stanno cambiando il loro modello di lavoro per rispondere alle esigenze dei clienti. Siamo interessati a proporre nuove figure lavorative, se interessato, vieni a trovarci nella sede più vicina."/>
+                    android:text="Salve, la contattiamo da parte dell'azienda Lidle Italia.\nData la forte crescita dell'azienda, stiamo recrutando nuove figure professionali aventi determionati requisiti. Per avere maggiori info, le proponiamo un colloquio conoscitivo.\nA risentirla! "/>
             </LinearLayout>
 
         </ScrollView>

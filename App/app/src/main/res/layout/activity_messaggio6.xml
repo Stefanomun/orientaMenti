@@ -96,7 +96,7 @@
                     android:layout_marginRight="10dp"
                     android:gravity="center"
                     android:textStyle="italic"
-                    android:text="Salve, siamo Co-founder di Oracle Italia.\nOracle è una societa' multinazionale del settore informatico con sede principale ad Austin in Texas.\nLe aziende stanno cambiando il loro modello di lavoro per rispondere alle esigenze dei clienti. Siamo interessati a proporre nuove figure lavorative, se interessato, vieni a trovarci nella sede più vicina."/>
+                    android:text="Salve, siamo la Sony Corporation, una multinazionale conglomerata giapponese fondata nel 1946 con sede a Minato.\nCi concentriamo sull'elettronica di consumo, videogiochi, intrattenimento e servizi finanziari. Ci piacerebbe che tu prendessi parte nel settore che più ti aggrada di questa nostra grande azienda! "/>
             </LinearLayout>
 
         </ScrollView>

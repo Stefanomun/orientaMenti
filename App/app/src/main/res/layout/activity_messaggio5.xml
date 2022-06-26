@@ -96,7 +96,7 @@
                     android:layout_marginRight="10dp"
                     android:gravity="center"
                     android:textStyle="italic"
-                    android:text="Salve, siamo Co-founder di Oracle Italia.\nOracle è una societa' multinazionale del settore informatico con sede principale ad Austin in Texas.\nLe aziende stanno cambiando il loro modello di lavoro per rispondere alle esigenze dei clienti. Siamo interessati a proporre nuove figure lavorative, se interessato, vieni a trovarci nella sede più vicina."/>
+                    android:text="Salve, siamo della Apple.\nLa nostra è un'azienda multinazionale statunitense che produce sistemi operativi, smartphone, computer e dispositivi multimediali, con sede a Cupertino in California.\n Siamo alla ricerca di nuovi talenti, offriamo formazione e crescita nel settore high tech.\nAbbiamo notato che rispetti i nostri parametri di valutazione; ci piacerebbe conoscerti meglio!"/>
             </LinearLayout>
 
         </ScrollView>

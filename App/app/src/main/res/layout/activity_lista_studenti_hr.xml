@@ -24,8 +24,8 @@
         android:layout_alignParentRight="true"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
-        app:popupTheme="@style/menuHam"
-        app:collapseIcon="@drawable/menu"/>
+        app:collapseIcon="@drawable/menu"
+        app:popupTheme="@style/menuHam" />
 
     <ImageView
         android:layout_width="60dp"
@@ -42,9 +42,8 @@
         android:layout_height="250dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        app:srcCompat="@drawable/logo"
         android:onClick="home"
-        />
+        app:srcCompat="@drawable/logo" />
 
 
     <!--Parte giallo ocra dello schermo, dove saranno presenti le cards -->
@@ -103,8 +102,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
-                        android:layout_marginTop="20dp"
                         android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
                         android:layout_toRightOf="@id/imageStudente1"
                         android:letterSpacing="-0.02"
                         android:text="Marta Rossi"
@@ -116,9 +115,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_below="@+id/studente1"
                         android:layout_alignLeft="@+id/studente1"
+                        android:layout_marginTop="10dp"
                         android:text="Istituto ''Alfano I'' - Salerno(SA)"
                         android:textColor="@color/black"
                         android:textSize="20dp"
@@ -150,8 +149,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
-                        android:layout_marginTop="20dp"
                         android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
                         android:layout_toRightOf="@id/imageStudente2"
                         android:letterSpacing="-0.02"
                         android:text="Stefano Mungiello"
@@ -163,9 +162,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_below="@+id/studente2"
                         android:layout_alignLeft="@+id/studente2"
+                        android:layout_marginTop="10dp"
                         android:text="Università degli studi di Salerno - Fisciano(SA)"
                         android:textColor="@color/black"
                         android:textSize="20dp"
@@ -197,8 +196,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
-                        android:layout_marginTop="20dp"
                         android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
                         android:layout_toRightOf="@id/imageStudente3"
                         android:letterSpacing="-0.02"
                         android:text="Antonio Sellitto"
@@ -210,9 +209,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_below="@+id/studente3"
                         android:layout_alignLeft="@+id/studente3"
+                        android:layout_marginTop="10dp"
                         android:text="Università degli studi di Salerno - Fisciano(SA)"
                         android:textColor="@color/black"
                         android:textSize="20dp"
@@ -244,8 +243,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
-                        android:layout_marginTop="20dp"
                         android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
                         android:layout_toRightOf="@id/imageStudente4"
                         android:letterSpacing="-0.02"
                         android:text="Sabato Genovese"
@@ -257,9 +256,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_below="@+id/studente4"
                         android:layout_alignLeft="@+id/studente4"
+                        android:layout_marginTop="10dp"
                         android:text="Università degli studi di Salerno - Fisciano(SA)"
                         android:textColor="@color/black"
                         android:textSize="20dp"
@@ -291,8 +290,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
-                        android:layout_marginTop="20dp"
                         android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
                         android:layout_toRightOf="@id/imageStudente5"
                         android:letterSpacing="-0.02"
                         android:text="Angela De Martino"
@@ -304,9 +303,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_below="@+id/studente5"
                         android:layout_alignLeft="@+id/studente5"
+                        android:layout_marginTop="10dp"
                         android:text="Università degli studi di Salerno - Fisciano(SA)"
                         android:textColor="@color/black"
                         android:textSize="20dp"

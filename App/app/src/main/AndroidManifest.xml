@@ -74,6 +74,24 @@
             android:name=".studente.Messaggi"
             android:exported="true" />
         <activity
+            android:name=".studente.Messaggio1"
+            android:exported="true" />
+        <activity
+            android:name=".studente.Messaggio2"
+            android:exported="true" />
+        <activity
+            android:name=".studente.Messaggio3"
+            android:exported="true" />
+        <activity
+            android:name=".studente.Messaggio4"
+            android:exported="true" />
+        <activity
+            android:name=".studente.Messaggio5"
+            android:exported="true" />
+        <activity
+            android:name=".studente.Messaggio6"
+            android:exported="true" />
+        <activity
             android:name=".hr.RegistrazioneHR"
             android:exported="true" />
         <activity

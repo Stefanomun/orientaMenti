@@ -31,7 +31,7 @@ ImageView logo;
         startActivity(in);
     }
 
-   /* public void readMes1(View v){
+   public void readMes1(View v){
         Intent in= new Intent(getApplicationContext(), Messaggio1.class);
         startActivity(in);
     }
@@ -60,6 +60,6 @@ ImageView logo;
         Intent in= new Intent(getApplicationContext(), Messaggio6.class);
         startActivity(in);
     }
-*/
+
 
 }

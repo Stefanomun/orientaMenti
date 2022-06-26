@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#926151">
+
+    <!--Inserimento della freccia per tornare indietro -->
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="indietro"
+        android:src="@drawable/undo" />
+
+    <!--Inserimento del logo Orientamenti -->
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="home"
+        app:srcCompat="@drawable/logo" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+
+        <!-- Inserimento del titolo -->
+
+        <TextView
+            android:id="@+id/title_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:letterSpacing="-0.02"
+            android:text="I miei messaggi"
+            android:textColor="@color/black"
+            android:textSize="45dp"
+            android:typeface="serif" />
+
+        <!--View per poter effettuare lo scroll -->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp">
+
+
+                <RelativeLayout
+                    android:id="@+id/card1"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_border">
+
+                    <ImageView
+                        android:id="@+id/imageMessage1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/new_message" />
+
+                    <TextView
+                        android:id="@+id/riferimento_contatto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:layout_toRightOf="@id/imageMessage1"
+                        android:letterSpacing="-0.02"
+                        android:text="Sei stato contattato dall'azienda Oracle"
+                        android:textColor="@color/black"
+                        android:textSize="35dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/layout_card2"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/card1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_border">
+
+                    <ImageView
+                        android:id="@+id/card2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/new_message" />
+
+                    <TextView
+                        android:id="@+id/bando2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/card2"
+                        android:gravity="center"
+                        android:letterSpacing="-0.02"
+                        android:text="Sei stato contattato dall'azienda Meta"
+                        android:textColor="@color/black"
+                        android:textSize="35dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout_card3"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/layout_card2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_border">
+
+                    <ImageView
+                        android:id="@+id/card3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/new_message" />
+
+                    <TextView
+                        android:id="@+id/bando3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/card3"
+                        android:gravity="center"
+                        android:letterSpacing="-0.02"
+                        android:text="Sei stato contattato dall'azienda Vitrociset"
+                        android:textColor="@color/black"
+                        android:textSize="35dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout_card4"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/layout_card3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_border">
+
+                    <ImageView
+                        android:id="@+id/card4"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/new_message" />
+
+                    <TextView
+                        android:id="@+id/bando4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/card4"
+                        android:gravity="center"
+                        android:letterSpacing="-0.02"
+                        android:text="Sei stato contattato dall'azienda Meta"
+                        android:textColor="@color/black"
+                        android:textSize="35dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout_card5"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/layout_card4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_border">
+
+                    <ImageView
+                        android:id="@+id/card5"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/new_message" />
+
+                    <TextView
+                        android:id="@+id/bando5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/card5"
+                        android:gravity="center"
+                        android:letterSpacing="-0.02"
+                        android:text="Sei stato contattato dall'azienda Meta"
+                        android:textColor="@color/black"
+                        android:textSize="35dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout_card6"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/layout_card5"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_border">
+
+                    <ImageView
+                        android:id="@+id/card6"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/new_message" />
+
+                    <TextView
+                        android:id="@+id/bando6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/card6"
+                        android:gravity="center"
+                        android:letterSpacing="-0.02"
+                        android:text="Sei stato contattato dall'azienda Meta"
+                        android:textColor="@color/black"
+                        android:textSize="35dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

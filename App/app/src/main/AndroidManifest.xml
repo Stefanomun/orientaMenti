@@ -71,6 +71,9 @@
             android:name=".studente.RegistrazioneStudente"
             android:exported="false" />
         <activity
+            android:name=".studente.Messaggi"
+            android:exported="false" />
+        <activity
             android:name=".hr.RegistrazioneHR"
             android:exported="true" />
         <activity

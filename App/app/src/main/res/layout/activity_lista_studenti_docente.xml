@@ -126,6 +126,100 @@
 
                 </RelativeLayout>
 
+                <!--Seconda Card -->
+                <RelativeLayout
+                    android:id="@+id/card2"
+                    android:layout_width="380dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/card1"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_border"
+                    android:onClick="studente2">
+
+                    <ImageView
+                        android:id="@+id/imageStudente2"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/studente2" />
+
+                    <TextView
+                        android:id="@+id/studente2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_toRightOf="@id/imageStudente2"
+                        android:letterSpacing="-0.02"
+                        android:text="Alberto Fontana"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/studente2"
+                        android:layout_alignLeft="@+id/studente2"
+                        android:text="Classe 5A"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:typeface="serif" />
+
+                </RelativeLayout>
+
+                <!--Terza Card -->
+                <RelativeLayout
+                    android:id="@+id/card3"
+                    android:layout_width="380dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/card2"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_border"
+                    android:onClick="studente3">
+
+                    <ImageView
+                        android:id="@+id/imageStudente3"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/studentessa2" />
+
+                    <TextView
+                        android:id="@+id/studente3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_toRightOf="@id/imageStudente3"
+                        android:letterSpacing="-0.02"
+                        android:text="Roberta Russo"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/studente3"
+                        android:layout_alignLeft="@+id/studente3"
+                        android:text="Classe 5A"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:typeface="serif" />
+
+                </RelativeLayout>
+
             </RelativeLayout>
 
         </ScrollView>

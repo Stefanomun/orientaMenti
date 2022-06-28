@@ -183,14 +183,14 @@
                 <Button
                     android:layout_width="190dp"
                     android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginTop="400dp"
                     android:background="@drawable/button3"
-                    android:text="Visualizza bandi attivi"
-                    android:textSize="15dp"
-                    android:layout_centerHorizontal="true"
                     android:fontFamily="@font/times_new_roman_bold"
+                    android:onClick="bandi"
+                    android:text="Visualizza bandi attivi"
                     android:textColor="@color/black"
-                    android:onClick="indietro"/>
+                    android:textSize="15dp" />
             </RelativeLayout>
         </ScrollView>
     </LinearLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/sfondoMarrone"
-    tools:context=".studente.BandoSoftwareDeveloper">
+    tools:context=".studente.BandoConsulenteAziendale">
 
     <ImageView
         android:layout_width="60dp"
@@ -58,7 +58,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/times_new_roman_bold"
-            android:text="Software Developer"
+            android:text="Consulente aziendale"
             android:textColor="@color/black"
             android:textSize="30dp" />
 
@@ -75,7 +75,7 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
-                    android:src="@drawable/bando1" />
+                    android:src="@drawable/bando4" />
 
                 <RelativeLayout
                     android:layout_width="380dp"
@@ -101,7 +101,7 @@
                         android:layout_marginTop="30dp"
                         android:layout_marginBottom="8dp"
                         android:fontFamily="@font/times_new_roman"
-                        android:text="Meta"
+                        android:text="Intesa San Paolo"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="18dp" />
@@ -123,7 +123,7 @@
                         android:layout_marginTop="82dp"
                         android:layout_marginBottom="8dp"
                         android:fontFamily="@font/times_new_roman"
-                        android:text="Meta cerca un software developer da aggiungere al proprio organico. In particolare, si cerca uno sviluppatore da aggiungere al gruppo di lavoro della sezione Instagram"
+                        android:text="Si cerca, per la sede di Torino (TO), la figura di consulenze aziendale, capace di riuscire a fornire il giusto supporto alle aziende che fanno uso dei nostri servizi."
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="18dp" />
@@ -167,7 +167,7 @@
                             android:fontFamily="@font/times_new_roman"
                             android:layout_marginLeft="5dp"
                             android:textSize="18dp"
-                            android:text="Laurea L-31 o Laurea magistrale LM-18"
+                            android:text="Diploma di Laurea - Classe L18"
                             android:textColor="@color/black"/>
 
                     </LinearLayout>
@@ -189,7 +189,7 @@
                             android:fontFamily="@font/times_new_roman"
                             android:layout_marginLeft="5dp"
                             android:textSize="18dp"
-                            android:text="Java"
+                            android:text="Lingua inglese - livello B2"
                             android:textColor="@color/black"/>
 
                     </LinearLayout>
@@ -211,7 +211,7 @@
                             android:fontFamily="@font/times_new_roman"
                             android:layout_marginLeft="5dp"
                             android:textSize="18dp"
-                            android:text="Android Studio"
+                            android:text="Competenze matematiche avanzate"
                             android:textColor="@color/black"/>
 
                     </LinearLayout>
@@ -234,7 +234,7 @@
                             android:fontFamily="@font/times_new_roman"
                             android:layout_marginLeft="5dp"
                             android:textSize="18dp"
-                            android:text="C/C++"
+                            android:text="Competenze informatiche avanzate"
                             android:textColor="@color/black"/>
 
                     </LinearLayout>
@@ -345,7 +345,7 @@
                             android:fontFamily="@font/times_new_roman"
                             android:layout_marginLeft="5dp"
                             android:textSize="18dp"
-                            android:text="Etica lavorativa"
+                            android:text="Efficacia lavorativa"
                             android:textColor="@color/black"/>
 
                     </LinearLayout>
@@ -355,17 +355,16 @@
                 </LinearLayout>
 
 
-
                 <Button
                     android:layout_width="190dp"
                     android:layout_height="30dp"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginTop="520dp"
                     android:background="@drawable/button3"
-                    android:text="Candidati"
-                    android:textSize="15dp"
-                    android:layout_centerHorizontal="true"
                     android:fontFamily="@font/times_new_roman_bold"
+                    android:text="Candidati"
                     android:textColor="@color/black"
+                    android:textSize="15dp"
                     android:onClick="candidatura"/>
             </RelativeLayout>
         </ScrollView>

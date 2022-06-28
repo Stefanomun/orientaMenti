@@ -190,7 +190,7 @@
                     android:layout_centerHorizontal="true"
                     android:fontFamily="@font/times_new_roman_bold"
                     android:textColor="@color/black"
-                    android:onClick="indietro"/>
+                    android:onClick="bandi"/>
             </RelativeLayout>
         </ScrollView>
     </LinearLayout>

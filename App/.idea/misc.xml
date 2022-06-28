@@ -3,51 +3,52 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1345" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/drawable/border.xml" value="0.121" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/drawable/button2.xml" value="0.121" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/drawable/button3.xml" value="0.1345" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/drawable/button_border.xml" value="0.121" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/drawable/circle.xml" value="0.121" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1345" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1345" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1345" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1345" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/drawable/image_border.xml" value="0.121" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/drawable/image_container.xml" value="0.1345" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/drawable/popup_menu.xml" value="0.121" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/drawable/radius_photo.xml" value="0.12" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_dashboard_docente.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_dashboard_studente.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_dettaglio_meta.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_lista_aziende.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_lista_bandi.xml" value="0.2" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_lista_bandi_azienda1.xml" value="0.264" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_lista_bandi_azienda3.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_lista_bandi_azienda4.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_login.xml" value="0.2064814814814815" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_messaggi.xml" value="0.176" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_messaggio1.xml" value="0.2" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_messaggio2.xml" value="0.151171875" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_messaggio3.xml" value="0.2015625" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_messaggio4.xml" value="0.20052083333333334" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_messaggio5.xml" value="0.20052083333333334" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_messaggio6.xml" value="0.151171875" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_registrazione_docente.xml" value="0.152" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_registrazione_hr.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_registrazione_studente.xml" value="0.1" />
         <entry key="..\:/Users/sabat/Desktop/App/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/sabat/OneDrive - Università di Salerno/3 ANNO/Interazione Uomo Macchina/orientaMenti/App/app/src/main/res/drawable/border.xml" value="0.122" />
         <entry key="..\:/Users/sabat/OneDrive - Università di Salerno/3 ANNO/Interazione Uomo Macchina/orientaMenti/App/app/src/main/res/drawable/button_border.xml" value="0.2065" />
         <entry key="..\:/Users/sabat/OneDrive - Università di Salerno/3 ANNO/Interazione Uomo Macchina/orientaMenti/App/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1895" />
         <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/drawable/border.xml" value="0.1975" />
         <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/drawable/button2.xml" value="0.1645" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/drawable/button3.xml" value="0.1005" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/drawable/button4.xml" value="0.133" />
         <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/drawable/button_border.xml" value="0.1" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/drawable/circle.xml" value="0.1895" />
         <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/drawable/docente_button.xml" value="0.178" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/drawable/ic_launcher.xml" value="0.1895" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1895" />
         <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1645" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/drawable/image_container.xml" value="0.1895" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/drawable/outer_border.xml" value="0.1895" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/drawable/profile_image.xml" value="0.1895" />
         <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/font/times_new_roman.xml" value="0.2833333333333333" />
-        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_login.xml" value="0.2" />
-        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/active_lista_aziende.xml" value="0.1" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_bando_consulente_aziendale.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_bando_crew_member.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_bando_project_manager.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_bando_software_developer.xml" value="0.264" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_conferma_candidatura.xml" value="0.264" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_dashboard_docente.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_dashboard_hr.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_dashboard_studente.xml" value="0.176" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_dettaglio_intesa.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_dettaglio_lidl.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_dettaglio_meta.xml" value="0.264" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_dettaglio_oracle.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_lista_aziende.xml" value="0.2" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_lista_aziende2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_lista_bandi.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_lista_bandi_azienda1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_lista_bandi_azienda2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_lista_bandi_azienda3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_lista_bandi_azienda4.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_login_error.xml" value="0.264" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/activity_registrazione_studente.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/fragment_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/fragment_notifications.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/layout/login.xml" value="0.152" />
         <entry key="..\:/Users/smung/OneDrive/Desktop/Uni/IUM/Progetto/DocumentiUfficiali/Documentazione/orientaMenti/orientaMenti/App/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>

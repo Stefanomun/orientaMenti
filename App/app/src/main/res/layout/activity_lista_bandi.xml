@@ -133,7 +133,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
-                    android:onClick="intesa">
+                    android:onClick="bando2">
 
                     <ImageView
                         android:id="@+id/imageBando2"
@@ -178,7 +178,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
-                    android:onClick="lidl">
+                    android:onClick="bando3">
 
                     <ImageView
                         android:id="@+id/imageBando3"
@@ -223,7 +223,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
-                    android:onClick="oracle">
+                    android:onClick="bando4">
 
                     <ImageView
                         android:id="@+id/imageBando4"

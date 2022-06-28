@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import g13Team.orientaMenti.R;
+import g13Team.orientaMenti.hr.DashboardHR;
+import g13Team.orientaMenti.hr.ListaBandiHR;
 import g13Team.orientaMenti.menu.MenuDocenteHR;
 import g13Team.orientaMenti.studente.DashboardStudente;
 import g13Team.orientaMenti.studente.ListaAziende;

@@ -62,7 +62,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="4dp"
             android:letterSpacing="-0.02"
-            android:text="Bandi attivi"
+            android:text="I vostri bandi attivi"
             android:textColor="@color/black"
             android:textSize="35dp"
             android:typeface="serif" />

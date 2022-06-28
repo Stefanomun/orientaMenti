@@ -313,6 +313,100 @@
 
                 </RelativeLayout>
 
+                <!--Sesta Card -->
+                <RelativeLayout
+                    android:id="@+id/card6"
+                    android:layout_width="380dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/card5"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_border"
+                    android:onClick="studente6">
+
+                    <ImageView
+                        android:id="@+id/imageStudente6"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/studente3" />
+
+                    <TextView
+                        android:id="@+id/studente6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_toRightOf="@id/imageStudente6"
+                        android:letterSpacing="-0.02"
+                        android:text="Alberto Fontana"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/studente6"
+                        android:layout_alignLeft="@+id/studente6"
+                        android:text="Istituto ''Alfano I'' - Salerno(SA)"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:typeface="serif" />
+
+                </RelativeLayout>
+
+                <!--Settima Card -->
+                <RelativeLayout
+                    android:id="@+id/card7"
+                    android:layout_width="380dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/card6"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_border"
+                    android:onClick="studente7">
+
+                    <ImageView
+                        android:id="@+id/imageStudente7"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/studentessa2" />
+
+                    <TextView
+                        android:id="@+id/studente7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_toRightOf="@id/imageStudente7"
+                        android:letterSpacing="-0.02"
+                        android:text="Roberta Russo"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/studente7"
+                        android:layout_alignLeft="@+id/studente7"
+                        android:text="Istituto ''Alfano I'' - Salerno(SA)"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:typeface="serif" />
+
+                </RelativeLayout>
+
             </RelativeLayout>
 
         </ScrollView>

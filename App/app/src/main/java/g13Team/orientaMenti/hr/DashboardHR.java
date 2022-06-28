@@ -23,4 +23,9 @@ public class DashboardHR extends MenuDocenteHR {
         Intent intent = new Intent(DashboardHR.this, ListaStudentiHR.class);
         startActivity(intent);
     }
+
+    public void listaBandi(View view){
+        Intent intent = new Intent(DashboardHR.this, ListaBandiHR.class);
+        startActivity(intent);
+    }
 }

@@ -75,7 +75,8 @@
             <RelativeLayout
                 android:layout_width="140dp"
                 android:layout_height="170dp"
-                android:background="@drawable/button_border">
+                android:background="@drawable/button_border"
+                android:onClick="listaStudenti">
 
                 <ImageView
                     android:id="@+id/imageStud"

@@ -74,7 +74,8 @@
             <RelativeLayout
                 android:layout_width="140dp"
                 android:layout_height="170dp"
-                android:background="@drawable/button_border">
+                android:background="@drawable/button_border"
+                android:onClick="listaStudenti">
 
                 <ImageView
                     android:id="@+id/imageStud"
@@ -103,7 +104,8 @@
                 android:layout_width="140dp"
                 android:layout_height="170dp"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/button_border">
+                android:background="@drawable/button_border"
+                android:onClick="listaBandi">
 
                 <ImageView
                     android:id="@+id/imageDoc"
@@ -127,7 +129,6 @@
                     android:textSize="20dp" />
 
             </RelativeLayout>
-
 
         </LinearLayout>
 

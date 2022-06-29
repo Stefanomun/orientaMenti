@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#926151"
-    tools:context=".docente.ListaStudentiDocente">
+    tools:context=".hr.ListaBandiHR">
 
     <!--Freccia per tornare alla schermata precedente -->
     <ImageView
@@ -24,8 +24,8 @@
         android:layout_alignParentRight="true"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
-        app:popupTheme="@style/menuHam"
-        app:collapseIcon="@drawable/menu"/>
+        app:collapseIcon="@drawable/menu"
+        app:popupTheme="@style/menuHam" />
 
     <ImageView
         android:layout_width="60dp"
@@ -42,10 +42,8 @@
         android:layout_height="250dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        app:srcCompat="@drawable/logo"
         android:onClick="home"
-        />
-
+        app:srcCompat="@drawable/logo" />
 
     <!--Parte giallo ocra dello schermo, dove saranno presenti le cards -->
     <LinearLayout
@@ -64,7 +62,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="4dp"
             android:letterSpacing="-0.02"
-            android:text="Lista Studenti"
+            android:text="I vostri bandi attivi"
             android:textColor="@color/black"
             android:textSize="35dp"
             android:typeface="serif" />
@@ -73,7 +71,8 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="10dp"
+            android:fillViewport="true">
 
             <!--Layout che è servito per creare la zona dove inserire le cards -->
             <RelativeLayout
@@ -88,26 +87,25 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
-                    android:onClick="studente1">
+                    android:onClick="bando1">
 
                     <ImageView
-                        android:id="@+id/imageStudente1"
+                        android:id="@+id/imageBando1"
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:background="@drawable/image_border"
                         android:scaleType="centerInside"
-                        app:srcCompat="@drawable/studentessa" />
+                        app:srcCompat="@drawable/bando1" />
 
                     <TextView
-                        android:id="@+id/studente1"
+                        android:id="@+id/bando1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
                         android:layout_marginTop="20dp"
-                        android:layout_marginLeft="30dp"
-                        android:layout_toRightOf="@id/imageStudente1"
+                        android:layout_toRightOf="@id/imageBando1"
                         android:letterSpacing="-0.02"
-                        android:text="Marta Rossi"
+                        android:text="Bando per Software Developer"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:textStyle="bold"
@@ -116,10 +114,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:layout_below="@+id/studente1"
-                        android:layout_alignLeft="@+id/studente1"
-                        android:text="Classe 5A"
+                        android:layout_below="@+id/bando1"
+                        android:layout_alignLeft="@+id/bando1"
+                        android:text="Indetto da: Meta"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:typeface="serif" />
@@ -131,77 +128,29 @@
                     android:id="@+id/card2"
                     android:layout_width="380dp"
                     android:layout_height="150dp"
-                    android:layout_centerHorizontal="true"
                     android:layout_below="@+id/card1"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/button_border"
-                    android:onClick="studente2">
-
-                    <ImageView
-                        android:id="@+id/imageStudente2"
-                        android:layout_width="150dp"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/image_border"
-                        android:scaleType="centerInside"
-                        app:srcCompat="@drawable/studente2" />
-
-                    <TextView
-                        android:id="@+id/studente2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginLeft="30dp"
-                        android:layout_toRightOf="@id/imageStudente2"
-                        android:letterSpacing="-0.02"
-                        android:text="Alberto Fontana"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"
-                        android:textStyle="bold"
-                        android:typeface="serif" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:layout_below="@+id/studente2"
-                        android:layout_alignLeft="@+id/studente2"
-                        android:text="Classe 5A"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"
-                        android:typeface="serif" />
-
-                </RelativeLayout>
-
-                <!--Terza Card -->
-                <RelativeLayout
-                    android:id="@+id/card3"
-                    android:layout_width="380dp"
-                    android:layout_height="150dp"
                     android:layout_centerHorizontal="true"
-                    android:layout_below="@+id/card2"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
-                    android:onClick="studente3">
+                    android:onClick="bando2">
 
                     <ImageView
-                        android:id="@+id/imageStudente3"
+                        android:id="@+id/imageBando2"
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:background="@drawable/image_border"
                         android:scaleType="centerInside"
-                        app:srcCompat="@drawable/studentessa2" />
+                        app:srcCompat="@drawable/bando2" />
 
                     <TextView
-                        android:id="@+id/studente3"
+                        android:id="@+id/bando2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
                         android:layout_marginTop="20dp"
-                        android:layout_marginLeft="30dp"
-                        android:layout_toRightOf="@id/imageStudente3"
+                        android:layout_toRightOf="@id/imageBando2"
                         android:letterSpacing="-0.02"
-                        android:text="Roberta Russo"
+                        android:text="Bando per Project Manager"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:textStyle="bold"
@@ -210,15 +159,27 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:layout_below="@+id/studente3"
-                        android:layout_alignLeft="@+id/studente3"
-                        android:text="Classe 5A"
+                        android:layout_below="@+id/bando2"
+                        android:layout_alignLeft="@+id/bando2"
+                        android:text="Indetto da: Meta"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:typeface="serif" />
 
                 </RelativeLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/add_bando_button"
+                    android:onClick="aggiungiBando"/>
 
             </RelativeLayout>
 

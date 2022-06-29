@@ -188,7 +188,7 @@
                     android:layout_marginTop="465dp"
                     android:background="@drawable/button3"
                     android:fontFamily="@font/times_new_roman_bold"
-                    android:onClick="indietro"
+                    android:onClick="bandi"
                     android:text="Visualizza bandi attivi"
                     android:textColor="@color/black"
                     android:textSize="15dp" />

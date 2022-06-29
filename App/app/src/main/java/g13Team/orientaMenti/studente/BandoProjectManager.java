@@ -11,27 +11,27 @@ import g13Team.orientaMenti.ListaBandi;
 import g13Team.orientaMenti.R;
 import g13Team.orientaMenti.menu.MenuStudente;
 
-public class BandoSoftwareDeveloper extends MenuStudente {
+public class BandoProjectManager extends MenuStudente {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bando_software_developer);
+        setContentView(R.layout.activity_bando_project_manager);
         super.create(this);
     }
 
     public void indietro(View view){
-        Intent intent = new Intent(BandoSoftwareDeveloper.this, ListaBandi.class);
+        Intent intent = new Intent(BandoProjectManager.this, ListaBandi.class);
         startActivity(intent);
     }
 
     public void home(View view){
-        Intent intent = new Intent(BandoSoftwareDeveloper.this, DashboardStudente.class);
+        Intent intent = new Intent(BandoProjectManager.this, DashboardStudente.class);
         startActivity(intent);
     }
 
     public void candidatura(View view){
-        Intent intent = new Intent(BandoSoftwareDeveloper.this, ConfermaCandidatura.class);
+        Intent intent = new Intent(BandoProjectManager.this, ConfermaCandidatura.class);
         startActivity(intent);
     }
 }

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#926151">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="indietro"
+        android:src="@drawable/undo" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:popupTheme="@style/menuHam"
+        app:collapseIcon="@drawable/menu"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="menu"
+        app:srcCompat="@drawable/menu" />
+
+    <RelativeLayout
+        android:id="@+id/photolayout"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/image_container_photo">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/docente"
+            app:shapeAppearanceOverlay="@style/roundImage" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:layout_below="@+id/photolayout">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/nome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="Nome: "
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:typeface="serif" />
+
+                <EditText
+                    android:id="@+id/nome_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nome"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/button_border"
+                    android:padding="5dp"
+                    android:text="Paolo"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/cognome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nome_txt"
+                    android:layout_marginLeft="15dp"
+                    android:text="Cognome: "
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:typeface="serif"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cognome_txt"
+                    android:layout_below="@+id/cognome"
+                    android:text="Bianchi"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:background="@drawable/button_border"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:typeface="serif"/>
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_below="@id/cognome_txt"
+                    android:text="Email: "
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:typeface="serif"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/email_txt"
+                    android:text="paolo.bianchi@docenti.it"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:layout_below="@id/email"
+                    android:background="@drawable/button_border"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:typeface="serif"/>
+
+                <TextView
+                    android:id="@+id/istituto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_below="@+id/email_txt"
+                    android:text="Istituto: "
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:typeface="serif"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/istituto_txt"
+                    android:layout_below="@+id/istituto"
+                    android:text="ITCG 'Masullo-Theti'"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:background="@drawable/button_border"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:typeface="serif"/>
+
+                <TextView
+                    android:id="@+id/materia_insegnamenti"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/istituto_txt"
+                    android:layout_marginLeft="15dp"
+                    android:text="Materia di insegnamento: "
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:typeface="serif"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/materia_insegnamenti_txt"
+                    android:layout_below="@id/materia_insegnamenti"
+                    android:text="Informatica"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:background="@drawable/button_border"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:typeface="serif"/>
+
+
+                <Button
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/materia_insegnamenti_txt"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/button1"
+                    android:fontFamily="@font/times_new_roman_bold"
+                    android:onClick="save"
+                    android:text="Salva"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -77,6 +77,9 @@
             android:name=".docente.DashboardDocente"
             android:exported="false" />
         <activity
+            android:name=".docente.ProfiloDocente"
+            android:exported="false"/>
+        <activity
             android:name=".studente.DashboardStudente"
             android:exported="false" />
         <activity

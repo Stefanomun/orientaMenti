@@ -1,8 +1,11 @@
 package g13Team.orientaMenti.studente;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -21,7 +24,17 @@ public class RegistrazioneStudente extends AppCompatActivity {
         startActivity(in);
     }
     public void regStudente(View v){
-        Intent in= new Intent(getApplicationContext(), Login.class);
-        startActivity(in);
+         AlertDialog.Builder builder= new AlertDialog.Builder(RegistrazioneStudente.this);
+           final View customLayout= getLayoutInflater().inflate(R.layout.custom_alert_dialog, null);
+           builder.setView(customLayout);
+           Button ok= customLayout.findViewById(R.id.btn_dialog);
+            ok.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent in = new Intent(getApplicationContext(), DashboardStudente.class);
+                    startActivity(in);
+                }
+            });
+         builder.show();
     }
 }

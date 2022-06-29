@@ -7,6 +7,7 @@ import android.widget.Toast;
 import g13Team.orientaMenti.R;
 import g13Team.orientaMenti.login.Login;
 import g13Team.orientaMenti.studente.Messaggi;
+import g13Team.orientaMenti.studente.ProfiloStudente;
 
 public class MenuStudente extends Menu {
 
@@ -19,6 +20,8 @@ public class MenuStudente extends Menu {
                 break;
 
             case R.id.profilo:
+                Intent profilo = new Intent(getApplicationContext(), ProfiloStudente.class);
+                startActivity(profilo);
                 Toast.makeText(menu, "Profilo", Toast.LENGTH_SHORT).show();
                 break;
 

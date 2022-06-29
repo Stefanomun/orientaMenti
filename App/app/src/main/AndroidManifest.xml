@@ -74,6 +74,9 @@
             android:name=".hr.DashboardHR"
             android:exported="false" />
         <activity
+            android:name=".hr.ProfiloHR"
+            android:exported="false"/>
+        <activity
             android:name=".docente.DashboardDocente"
             android:exported="false" />
         <activity

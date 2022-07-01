@@ -14,6 +14,12 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".ConfermaQuestionario"
+            android:exported="false" />
+        <activity
+            android:name=".Questionario"
+            android:exported="false" />
+        <activity
             android:name=".hr.ListaBandiHR"
             android:exported="false" />
         <activity
@@ -75,13 +81,13 @@
             android:exported="false" />
         <activity
             android:name=".hr.ProfiloHR"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".docente.DashboardDocente"
             android:exported="false" />
         <activity
             android:name=".docente.ProfiloDocente"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".studente.DashboardStudente"
             android:exported="false" />
@@ -90,7 +96,7 @@
             android:exported="false" />
         <activity
             android:name=".studente.ProfiloStudente"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".studente.RegistrazioneStudente"
             android:exported="false" />

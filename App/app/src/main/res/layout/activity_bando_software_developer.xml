@@ -355,18 +355,17 @@
                 </LinearLayout>
 
 
-
                 <Button
                     android:layout_width="190dp"
                     android:layout_height="30dp"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginTop="520dp"
                     android:background="@drawable/button3"
-                    android:text="Candidati"
-                    android:textSize="15dp"
-                    android:layout_centerHorizontal="true"
                     android:fontFamily="@font/times_new_roman_bold"
+                    android:onClick="candidatura"
+                    android:text="Candidati"
                     android:textColor="@color/black"
-                    android:onClick="candidatura"/>
+                    android:textSize="15dp" />
             </RelativeLayout>
         </ScrollView>
     </LinearLayout>

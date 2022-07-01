@@ -17,7 +17,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registrazione effettuata con successo"
+        android:text="Candidatura effettuata con successo"
         android:id="@+id/text_dialog"
         android:layout_below="@+id/a"
         android:fontFamily="@font/times_new_roman"

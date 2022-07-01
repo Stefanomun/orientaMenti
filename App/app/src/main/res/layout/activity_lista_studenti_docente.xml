@@ -88,7 +88,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
-                    android:onClick="studente1">
+                    android:onClick="questionario">
 
                     <ImageView
                         android:id="@+id/imageStudente1"
@@ -135,7 +135,7 @@
                     android:layout_below="@+id/card1"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
-                    android:onClick="studente2">
+                    android:onClick="questionario">
 
                     <ImageView
                         android:id="@+id/imageStudente2"
@@ -182,7 +182,7 @@
                     android:layout_below="@+id/card2"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
-                    android:onClick="studente3">
+                    android:onClick="questionario">
 
                     <ImageView
                         android:id="@+id/imageStudente3"

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sfondoMarrone"
+    tools:context=".Questionario">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="indietro"
+        android:src="@drawable/undo" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:popupTheme="@style/menuHam"
+        app:collapseIcon="@drawable/menu"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@drawable/menu"
+        android:onClick="menu"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/logo"
+        android:onClick="home"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/times_new_roman_bold"
+            android:text="Questionario valutativo"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_border">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/times_new_roman_bold"
+                        android:text="Lo studente sa lavorare bene in gruppo?"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginBottom="8dp">
+
+                        <RadioButton
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text="Decisamente no"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <RadioButton
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text="Più no che sì"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <RadioButton
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text="Abbastanza"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <RadioButton
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text="Più sì che no"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <RadioButton
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text="Decisamente si"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                    </RadioGroup>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="175dp"
+                    android:background="@drawable/button_border">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/times_new_roman_bold"
+                        android:text="Lo studente sa guidare un gruppo?"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <RadioGroup
+                        android:id="@+id/radioSex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginBottom="8dp">
+
+                        <RadioButton
+                            android:id="@+id/radioMale"
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text="Decisamente no"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <RadioButton
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text="Più no che sì"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <RadioButton
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text="Abbastanza"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <RadioButton
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text="Più sì che no"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                        <RadioButton
+                            android:id="@+id/radioFemale"
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text="Decisamente si"
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
+
+                    </RadioGroup>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="345dp"
+                    android:background="@drawable/button_border">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lo studente è puntuale nelle consegne?"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/times_new_roman_bold"
+                        android:textSize="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_centerHorizontal="true"/>
+
+                    <RadioGroup
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text="Decisamente no"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            style="@style/radionbutton"/>
+
+                        <RadioButton
+                            android:textColor="@color/black"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Più no che sì"
+                            android:fontFamily="@font/times_new_roman"
+                            android:textSize="18dp"
+                            style="@style/radionbutton"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/times_new_roman"
+                            android:layout_marginTop="5dp"
+                            android:text="Abbastanza"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            style="@style/radionbutton"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/times_new_roman"
+                            android:layout_marginTop="5dp"
+                            android:text="Più sì che no"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            style="@style/radionbutton"/>
+
+                        <RadioButton
+                            android:textColor="@color/black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Decisamente si"
+                            android:fontFamily="@font/times_new_roman"
+                            android:textSize="18dp"
+                            style="@style/radionbutton"/>
+
+                    </RadioGroup>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="515dp"
+                    android:background="@drawable/button_border">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lo studente saprebbe relazionarsi con i clienti?"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/times_new_roman_bold"
+                        android:textSize="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_centerHorizontal="true"/>
+
+                    <RadioGroup
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text="Decisamente no"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            style="@style/radionbutton"/>
+
+                        <RadioButton
+                            android:textColor="@color/black"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Più no che sì"
+                            android:fontFamily="@font/times_new_roman"
+                            android:textSize="18dp"
+                            style="@style/radionbutton"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/times_new_roman"
+                            android:layout_marginTop="5dp"
+                            android:text="Abbastanza"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            style="@style/radionbutton"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/times_new_roman"
+                            android:layout_marginTop="5dp"
+                            android:text="Più sì che no"
+                            android:textColor="@color/black"
+                            android:textSize="18dp"
+                            style="@style/radionbutton"/>
+
+                        <RadioButton
+                            android:textColor="@color/black"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Decisamente si"
+                            android:fontFamily="@font/times_new_roman"
+                            android:textSize="18dp"
+                            style="@style/radionbutton"/>
+
+                    </RadioGroup>
+
+                </RelativeLayout>
+
+                <Button
+                    android:layout_width="190dp"
+                    android:layout_height="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="700dp"
+                    android:background="@drawable/button3"
+                    android:fontFamily="@font/times_new_roman_bold"
+                    android:onClick="conferma"
+                    android:text="Conferma"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

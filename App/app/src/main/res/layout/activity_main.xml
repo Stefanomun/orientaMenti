@@ -34,8 +34,9 @@
             <RelativeLayout
                 android:layout_width="140dp"
                 android:layout_height="170dp"
+                android:id="@+id/Studente"
                 android:background="@drawable/button_border"
-                android:onClick="chiamaLogin">
+                android:onClick="chiamaLoginStudente">
 
                 <ImageView
                     android:id="@+id/imageStud"
@@ -64,8 +65,9 @@
                 android:layout_width="140dp"
                 android:layout_height="170dp"
                 android:layout_marginLeft="10dp"
+                android:id="@+id/Docente"
                 android:background="@drawable/button_border"
-                android:onClick="chiamaLogin">
+                android:onClick="chiamaLoginDocente">
 
                 <ImageView
                     android:id="@+id/imageDoc"
@@ -102,8 +104,9 @@
             <RelativeLayout
                 android:layout_width="140dp"
                 android:layout_height="170dp"
+                android:id="@+id/Manager"
                 android:background="@drawable/button_border"
-                android:onClick="chiamaLogin">
+                android:onClick="chiamaLoginManager">
 
                 <ImageView
                     android:id="@+id/imageHR"

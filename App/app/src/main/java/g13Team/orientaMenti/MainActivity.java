@@ -16,8 +16,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void chiamaLogin(View view){
+    public void chiamaLoginStudente(View view){
         Intent intent = new Intent(MainActivity.this, Login.class);
+        intent.putExtra("ruolo", "studente");
+        startActivity(intent);
+    }
+
+    public void chiamaLoginDocente(View view){
+        Intent intent = new Intent(MainActivity.this, Login.class);
+        intent.putExtra("ruolo", "docente");
+        startActivity(intent);
+    }
+
+    public void chiamaLoginManager(View view){
+        Intent intent = new Intent(MainActivity.this, Login.class);
+        intent.putExtra("ruolo", "manager");
         startActivity(intent);
     }
 }

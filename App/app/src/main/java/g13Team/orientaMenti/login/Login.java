@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
@@ -16,6 +17,7 @@ import g13Team.orientaMenti.studente.RegistrazioneStudente;
 
 public class Login extends AppCompatActivity {
 
+    public String ruolo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +54,9 @@ public class Login extends AppCompatActivity {
         }
     }
     public void registrati(View v){
-        Intent in= new Intent(getApplicationContext(), RegistrazioneStudente.class);
-        startActivity(in);
+        String ruolo = getIntent().getExtras().getString("ruolo");
+        System.out.println(ruolo);
+        /*Intent in= new Intent(getApplicationContext(), RegistrazioneStudente.class);
+        startActivity(in);*/
     }
 }

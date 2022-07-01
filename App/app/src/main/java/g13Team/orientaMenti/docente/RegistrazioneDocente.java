@@ -10,8 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import g13Team.orientaMenti.R;
 import g13Team.orientaMenti.login.Login;
-import g13Team.orientaMenti.studente.DashboardStudente;
-import g13Team.orientaMenti.studente.RegistrazioneStudente;
 
 public class RegistrazioneDocente extends AppCompatActivity {
     @Override

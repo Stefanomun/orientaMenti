@@ -4,11 +4,10 @@ import android.content.Intent;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import g13Team.orientaMenti.MainActivity;
 import g13Team.orientaMenti.R;
 import g13Team.orientaMenti.login.Login;
 
-public class MenuDocenteHR extends Menu {
+public class MenuDocente extends Menu {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.profilo:

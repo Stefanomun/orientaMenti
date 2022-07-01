@@ -5,12 +5,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import g13Team.orientaMenti.R;
-import g13Team.orientaMenti.docente.DashboardDocente;
+import g13Team.orientaMenti.menu.MenuHR;
 
-public class ProfiloHR extends AppCompatActivity {
+public class ProfiloHR extends MenuHR {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

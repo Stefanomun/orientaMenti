@@ -4,14 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import g13Team.orientaMenti.ListaBandi;
 import g13Team.orientaMenti.R;
-import g13Team.orientaMenti.docente.DashboardDocente;
-import g13Team.orientaMenti.docente.ListaStudentiDocente;
-import g13Team.orientaMenti.menu.MenuDocenteHR;
-import g13Team.orientaMenti.studente.DashboardStudente;
+import g13Team.orientaMenti.menu.MenuHR;
 
-public class DashboardHR extends MenuDocenteHR {
+public class DashboardHR extends MenuHR {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

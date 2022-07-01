@@ -15,6 +15,7 @@ import g13Team.orientaMenti.R;
 
 public class AdapterMessaggio extends ArrayAdapter<String> {
     private LayoutInflater inflater = null;
+    private int conter = 0;
 
     public AdapterMessaggio(Context context, int resource, List<String> objects) {
         super(context, resource, objects);
@@ -25,7 +26,10 @@ public class AdapterMessaggio extends ArrayAdapter<String> {
     @Override
     public View getView(int position, View view, ViewGroup parent) {
         if (view == null) {
-            view = inflater.inflate(R.layout.activity_messaggio_ricevuto, null);
+            if((conter++ % 2) == 0)
+                view = inflater.inflate(R.layout.activity_messaggio_ricevuto, null);
+            else
+                view = inflater.inflate(R.layout.activity_messaggio_inviato, null);
         }
 
         TextView textView = view.findViewById(R.id.testoMessaggio);

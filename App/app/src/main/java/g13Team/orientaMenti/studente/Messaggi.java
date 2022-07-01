@@ -7,6 +7,7 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import g13Team.orientaMenti.Chat;
 import g13Team.orientaMenti.R;
 
 public class Messaggi extends AppCompatActivity {
@@ -27,7 +28,12 @@ ImageView logo;
     }
 
     public void indietro(View v){
-        Intent in= new Intent(getApplicationContext(),DashboardStudente.class);
+        Intent in= new Intent(this,DashboardStudente.class);
+        startActivity(in);
+    }
+
+    public void chat(View v){
+        Intent in= new Intent(this, Chat.class);
         startActivity(in);
     }
 

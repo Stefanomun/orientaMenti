@@ -23,16 +23,16 @@
         app:srcCompat="@drawable/logo" />
 
     <EditText
-        android:background="@drawable/button_border"
         android:id="@+id/mail"
-        android:layout_marginTop="350dp"
-        android:layout_height="25dp"
         android:layout_width="380dp"
+        android:layout_height="25dp"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/black"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/button_border"
         android:fontFamily="@font/times_new_roman"
+        android:inputType="text"
         android:textAlignment="center"
-        android:inputType="text"/>
+        android:textColor="@color/black" />
 
     <EditText
         android:background="@drawable/button_border"

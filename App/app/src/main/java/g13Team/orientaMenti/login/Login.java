@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import g13Team.orientaMenti.docente.DashboardDocente;
 import g13Team.orientaMenti.docente.RegistrazioneDocente;
@@ -25,9 +26,12 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        ruolo = getIntent().getExtras().getString("ruolo");
-        System.out.println(ruolo);
+        Toast.makeText(this, "ciao", Toast.LENGTH_SHORT);
 
+        Bundle bundle = getIntent().getExtras();
+
+        if(bundle != null)
+            ruolo = bundle.getString("ruolo", null);
     }
 
     public void indietro(View view){

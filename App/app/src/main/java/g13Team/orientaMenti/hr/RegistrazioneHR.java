@@ -20,7 +20,7 @@ public class RegistrazioneHR extends AppCompatActivity {
         setContentView(R.layout.activity_registrazione_hr);
     }
     public void indietro(View v){
-        Intent in= new Intent(getApplicationContext(), Login.class);
+        Intent in= new Intent(RegistrazioneHR.this, Login.class);
         startActivity(in);
     }
     public void regHR(View v){

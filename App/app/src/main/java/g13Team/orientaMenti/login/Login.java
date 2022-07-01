@@ -9,7 +9,9 @@ import android.view.View;
 import android.widget.EditText;
 
 import g13Team.orientaMenti.docente.DashboardDocente;
+import g13Team.orientaMenti.docente.RegistrazioneDocente;
 import g13Team.orientaMenti.hr.DashboardHR;
+import g13Team.orientaMenti.hr.RegistrazioneHR;
 import g13Team.orientaMenti.studente.DashboardStudente;
 import g13Team.orientaMenti.MainActivity;
 import g13Team.orientaMenti.R;
@@ -23,11 +25,14 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        ruolo = getIntent().getExtras().getString("ruolo");
+        System.out.println(ruolo);
 
     }
 
     public void indietro(View view){
         Intent intent = new Intent(Login.this, MainActivity.class);
+        ruolo = null;
         startActivity(intent);
     }
 
@@ -54,9 +59,15 @@ public class Login extends AppCompatActivity {
         }
     }
     public void registrati(View v){
-        String ruolo = getIntent().getExtras().getString("ruolo");
-        System.out.println(ruolo);
-        /*Intent in= new Intent(getApplicationContext(), RegistrazioneStudente.class);
-        startActivity(in);*/
+        Intent in = null;
+        if(ruolo.equals("studente")){
+            in= new Intent(getApplicationContext(), RegistrazioneStudente.class);
+        } else if (ruolo.equals("docente")){
+            in= new Intent(getApplicationContext(), RegistrazioneDocente.class);
+        } else if (ruolo.equals("manager")){
+            in= new Intent(getApplicationContext(), RegistrazioneHR.class);
+        }
+        startActivity(in);
+
     }
 }

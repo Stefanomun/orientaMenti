@@ -17,19 +17,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void chiamaLoginStudente(View view){
-        Intent intent = new Intent(MainActivity.this, Login.class);
+        Intent intent = new Intent(this, Login.class);
         intent.putExtra("ruolo", "studente");
         startActivity(intent);
     }
 
     public void chiamaLoginDocente(View view){
-        Intent intent = new Intent(MainActivity.this, Login.class);
+        Intent intent = new Intent(this, Login.class);
         intent.putExtra("ruolo", "docente");
         startActivity(intent);
     }
 
     public void chiamaLoginManager(View view){
-        Intent intent = new Intent(MainActivity.this, Login.class);
+        Intent intent = new Intent(this, Login.class);
         intent.putExtra("ruolo", "manager");
         startActivity(intent);
     }

@@ -19,7 +19,7 @@ public class RegistrazioneDocente extends AppCompatActivity {
     }
 
     public void indietro(View v) {
-        Intent in = new Intent(RegistrazioneDocente.this, Login.class);
+        Intent in = new Intent(getApplicationContext(), Login.class);
         startActivity(in);
     }
 

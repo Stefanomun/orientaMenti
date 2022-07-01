@@ -51,35 +51,23 @@
         android:background="@drawable/border"
         android:orientation="vertical">
 
-        <RelativeLayout
-            android:id="@+id/card1"
-            android:layout_width="wrap_content"
+        <ListView
+            android:id="@+id/messaggi"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="480dp"
-            android:layout_gravity="bottom"
-            android:background="@drawable/button_border">
+            android:layout_marginTop="120dp">
 
-            <TextView
-                android:layout_width="250dp"
-                android:layout_height="wrap_content"
-                android:layout_margin="15dp"
-                android:fontFamily="@font/times_new_roman"
-                android:text="Ciao! Abbiamo visitato il tuo profilo e ci sei sembrato la persona adatta per noi! Aspettiamo una tua risposta!"
-                android:textColor="@color/black"
-                android:textSize="20dp" />
-        </RelativeLayout>
+        </ListView>
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="45dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/mail"
+                android:id="@+id/testoMessaggioDaInviare"
                 android:layout_width="360dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
@@ -93,7 +81,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.5"
-                android:src="@drawable/invia" />
+                android:src="@drawable/invia"
+                android:onClick="inviaMessaggio"/>
 
         </LinearLayout>
     </LinearLayout>

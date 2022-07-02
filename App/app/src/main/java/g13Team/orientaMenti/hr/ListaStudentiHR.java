@@ -34,4 +34,9 @@ public class ListaStudentiHR extends MenuHR {
         Intent student2= new Intent(getApplicationContext(), ContattoStudente2.class);
         startActivity(student2);
     }
+
+    public void studente3(View v){
+        Intent student3= new Intent(getApplicationContext(), ContattoStudente3.class);
+        startActivity(student3);
+    }
 }

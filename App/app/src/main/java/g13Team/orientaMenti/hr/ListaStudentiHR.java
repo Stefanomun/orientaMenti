@@ -20,4 +20,14 @@ public class ListaStudentiHR extends MenuHR {
         startActivity(intent);
     }
 
+    public void home(View view){
+        Intent in= new Intent (getApplicationContext(), DashboardHR.class);
+        startActivity(in);
+    }
+
+    public void studente1(View v){
+        Intent student1= new Intent(getApplicationContext(), ContattoStudente1.class);
+        startActivity(student1);
+    }
+
 }

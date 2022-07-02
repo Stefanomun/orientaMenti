@@ -113,6 +113,9 @@
             android:name=".docente.RegistrazioneDocente"
             android:exported="true" />
         <activity
+            android:name=".hr.ContattoStudente1"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

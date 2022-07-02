@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffffff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/a"
+        android:gravity="center"
+        android:background="@color/sfondoMarrone"
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lo studente e' stato contattato"
+        android:id="@+id/text_dialog"
+        android:layout_below="@+id/a"
+        android:fontFamily="@font/times_new_roman"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:textColor="#ff000000"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Ritorna alla lista studenti"
+        android:id="@+id/btn_dialog"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:fontFamily="@font/times_new_roman_bold"
+        android:layout_below="@+id/text_dialog"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button1"
+        android:layout_gravity="center"
+        android:textColor="#ffffffff" />
+
+</LinearLayout>

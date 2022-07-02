@@ -110,7 +110,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/address"
                     android:layout_centerHorizontal="true"
-                    android:text="Nola (NA) - Via M. De Sena, 39"
+                    android:text="Salerno (SA) - Via M. De Sena, 39"
                     android:textColor="@color/black"
                     android:textSize="20dp" />
 
@@ -131,11 +131,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/istitute"
-                    android:text="ITCG 'Masullo-Theti' -\n Nola (NA)"
-                    android:textSize="20dp"
-                    android:gravity="center"
                     android:layout_centerHorizontal="true"
-                    android:textColor="@color/black"/>
+                    android:gravity="center"
+                    android:text="Istituto 'Alfano I' -\n Salerno (SA)"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
 
                 <TextView
                     android:id="@+id/contacts"

@@ -65,7 +65,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/times_new_roman_bold"
-            android:text="Stefano Mungiello"
+            android:text="Sabato Genovese"
             android:textColor="@color/black"
             android:textSize="30dp" />
 
@@ -74,7 +74,7 @@
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:layout_gravity="center"
-            android:src="@drawable/stefano" />
+            android:src="@drawable/sabato" />
 
         <ScrollView
             android:layout_width="match_parent"
@@ -110,7 +110,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/address"
                         android:layout_centerHorizontal="true"
-                        android:text="Nola (NA) - Via Giuseppe Verdi, 38"
+                        android:text="Salerno (SA) - Via Mazzini, 80"
                         android:textColor="@color/black"
                         android:textSize="20dp" />
 
@@ -215,7 +215,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
                             android:fontFamily="@font/times_new_roman"
-                            android:text=" Conoscenza del linguaggio Python"
+                            android:text=" Conoscenza del linguaggio C"
                             android:textColor="@color/black"
                             android:enabled="false"
                             android:textSize="18dp" />
@@ -226,7 +226,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
                             android:fontFamily="@font/times_new_roman"
-                            android:text=" Certificazione ECDL"
+                            android:text=" Sviluppo back-end"
                             android:textColor="@color/black"
                             android:enabled="false"
                             android:textSize="18dp" />
@@ -237,7 +237,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
                             android:fontFamily="@font/times_new_roman"
-                            android:text=" Certificazione Microsoft per Excel"
+                            android:text=" Certificazione Microsoft Power Point"
                             android:textColor="@color/black"
                             android:enabled="false"
                             android:textSize="18dp" />
@@ -325,7 +325,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
                             android:fontFamily="@font/times_new_roman"
-                            android:text=" Creativita'"
+                            android:text=" Leadership'"
                             android:textColor="@color/black"
                             android:enabled="false"
                             android:textSize="18dp" />
@@ -362,8 +362,8 @@
                         android:layout_below="@+id/questionari"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
-                        android:text="Lo studente sa lavorare bene in gruppo: Abbastanza"
                         android:fontFamily="@font/times_new_roman"
+                        android:text="Lo studente sa lavorare bene in gruppo: Decisamente si"
                         android:textColor="@color/black"
                         android:textSize="20dp" />
 
@@ -373,9 +373,9 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/inf_domande_questionari1"
                         android:layout_marginLeft="10dp"
-                        android:text="Lo studente sa guidare un gruppo: Decisamente no"
-                        android:textColor="@color/black"
                         android:fontFamily="@font/times_new_roman"
+                        android:text="Lo studente sa guidare un gruppo: Piu' si' che no"
+                        android:textColor="@color/black"
                         android:textSize="20dp" />
 
                     <TextView
@@ -385,7 +385,7 @@
                         android:layout_below="@+id/inf_domande_questionari2"
                         android:layout_marginLeft="10dp"
                         android:fontFamily="@font/times_new_roman"
-                        android:text="Lo studente e' puntuale nelle consegne: Decisamente no"
+                        android:text="Lo studente e' puntuale nelle consegne: Piu' si' che no"
                         android:textColor="@color/black"
                         android:textSize="20dp" />
 

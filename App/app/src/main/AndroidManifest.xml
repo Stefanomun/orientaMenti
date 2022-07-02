@@ -122,6 +122,9 @@
             android:name=".hr.ContattoStudente3"
             android:exported="true" />
         <activity
+            android:name=".hr.ContattoStudente4"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

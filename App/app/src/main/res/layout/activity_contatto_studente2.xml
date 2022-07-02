@@ -410,10 +410,10 @@
                 <Button
                     android:layout_width="190dp"
                     android:layout_height="30dp"
-                    android:layout_centerHorizontal="true"
-                    android:background="@drawable/button3"
-                    android:layout_marginTop="10dp"
                     android:layout_below="@+id/rel4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button3"
                     android:fontFamily="@font/times_new_roman_bold"
                     android:onClick="contatta"
                     android:text="Contatta"

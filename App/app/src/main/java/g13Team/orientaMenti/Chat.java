@@ -2,6 +2,7 @@ package g13Team.orientaMenti;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -9,7 +10,11 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
+import g13Team.orientaMenti.menu.MenuStudente;
 import g13Team.orientaMenti.studente.AdapterMessaggio;
+import g13Team.orientaMenti.studente.BandoConsulenteAziendale;
+import g13Team.orientaMenti.studente.DashboardStudente;
+import g13Team.orientaMenti.studente.Messaggi;
 
 public class Chat extends AppCompatActivity {
 
@@ -37,5 +42,15 @@ public class Chat extends AppCompatActivity {
         adapterMessaggio.add("Ti contatteremo a breve");
 
         editText.setText("");
+    }
+
+    public void indietro(View view){
+        Intent intent = new Intent(Chat.this, Messaggi.class);
+        startActivity(intent);
+    }
+
+    public void home(View view){
+        Intent intent = new Intent(Chat.this, DashboardStudente.class);
+        startActivity(intent);
     }
 }

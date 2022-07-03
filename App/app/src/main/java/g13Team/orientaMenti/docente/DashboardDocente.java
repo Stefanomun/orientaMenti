@@ -14,7 +14,6 @@ public class DashboardDocente extends MenuDocente {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard_docente);
 
-        super.create(this);
     }
 
     public void listaStudenti(View view){

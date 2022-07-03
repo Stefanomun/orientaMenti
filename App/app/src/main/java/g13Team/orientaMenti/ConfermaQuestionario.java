@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import g13Team.orientaMenti.docente.DashboardDocente;
 import g13Team.orientaMenti.docente.ListaStudentiDocente;
 import g13Team.orientaMenti.studente.DashboardStudente;
 
@@ -32,7 +33,7 @@ public class ConfermaQuestionario extends AppCompatActivity {
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(getApplicationContext(), DashboardStudente.class);
+                Intent in = new Intent(getApplicationContext(), DashboardDocente.class);
                 startActivity(in);
             }
         });

@@ -41,6 +41,6 @@ public class ListaStudentiHR extends MenuHR {
     }
     public void studente4(View v){
         Intent student4= new Intent(getApplicationContext(), ContattoStudente4.class);
-        startActivity(student4);git
+        startActivity(student4);
     }
 }

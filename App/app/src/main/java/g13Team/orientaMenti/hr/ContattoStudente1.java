@@ -43,4 +43,14 @@ public class ContattoStudente1 extends AppCompatActivity {
         });
         builder.show();
     }
+
+    public void indietro(View view){
+        Intent intent = new Intent(ContattoStudente1.this, ListaStudentiHR.class);
+        startActivity(intent);
+    }
+
+    public void home(View view){
+        Intent in= new Intent (this, DashboardHR.class);
+        startActivity(in);
+    }
 }

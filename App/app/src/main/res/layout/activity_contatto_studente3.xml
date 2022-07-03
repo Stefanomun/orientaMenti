@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/sfondoMarrone"
-    tools:context=".hr.ContattoStudente1">
+    tools:context=".hr.ContattoStudente3">
 
     <!--Freccia per tornare indietro -->
 

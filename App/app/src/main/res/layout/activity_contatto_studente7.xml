@@ -1,6 +1,430 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sfondoMarrone">
+
+    <!--Freccia per tornare indietro -->
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="indietro"
+        android:src="@drawable/undo" />
+
+
+    <!-- haburger menu-->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:popupTheme="@style/menuHam"
+        app:collapseIcon="@drawable/menu"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@drawable/menu"
+        android:onClick="menu"/>
+
+    <!-- Logo orientaMenti-->
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="home"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/times_new_roman_bold"
+            android:text="Roberta Russo"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imageStudente1"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/studentessa2"
+            android:background="@color/white"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/rel1"
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/button_border">
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="@font/times_new_roman_bold"
+                        android:text="Indirizzo:"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/inf_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/address"
+                        android:layout_centerHorizontal="true"
+                        android:text="Salerno (SA) - Via Lungomare Trieste, 17"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/istitute"
+                        android:layout_below="@+id/inf_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/times_new_roman_bold"
+                        android:text="Istituto di provenienza:"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/inf_istitute"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/istitute"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="Istituto 'Alfano I' - Salerno (SA)"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/contacts"
+                        android:layout_below="@+id/inf_istitute"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/times_new_roman_bold"
+                        android:text="Contatti:"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/inf_contacts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/contacts"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="123 - 456789"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rel2"
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rel1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/button_border">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/times_new_roman_bold"
+                        android:text="Competenze:"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginBottom="8dp">
+
+                        <RadioButton
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text=" Certificazione inglese livello B2"
+                            android:textColor="@color/black"
+                            android:enabled="false"
+                            android:textSize="18dp" />
+
+                        <RadioButton
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text=" Uso di strumenti tecnici per editing video"
+                            android:textColor="@color/black"
+                            android:enabled="false"
+                            android:textSize="18dp" />
+
+                        <RadioButton
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text=" Conoscenza del linguaggio Java"
+                            android:textColor="@color/black"
+                            android:enabled="false"
+                            android:textSize="18dp" />
+
+                        <RadioButton
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text=" Sviluppo front-end"
+                            android:textColor="@color/black"
+                            android:enabled="false"
+                            android:textSize="18dp" />
+
+                        <RadioButton
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text=" Certificazione Microsoft Excel"
+                            android:textColor="@color/black"
+                            android:enabled="false"
+                            android:textSize="18dp" />
+
+                    </RadioGroup>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rel3"
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rel2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/button_border">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/times_new_roman_bold"
+                        android:text="Soft-skills"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <RadioGroup
+                        android:id="@+id/radioSex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="35dp"
+                        android:enabled="false"
+                        android:layout_marginBottom="8dp">
+
+                        <RadioButton
+                            android:id="@+id/radioMale"
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text=" Capacita' organizzative"
+                            android:textColor="@color/black"
+                            android:enabled="false"
+                            android:textSize="18dp" />
+
+                        <RadioButton
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text=" Capacita' gestionali"
+                            android:textColor="@color/black"
+                            android:enabled="false"
+                            android:textSize="18dp" />
+
+                        <RadioButton
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text=" Public speaking"
+                            android:textColor="@color/black"
+                            android:enabled="false"
+                            android:textSize="18dp" />
+
+                        <RadioButton
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text=" Problem solving"
+                            android:textColor="@color/black"
+                            android:enabled="false"
+                            android:textSize="18dp" />
+
+                        <RadioButton
+                            android:id="@+id/radioFemale"
+                            style="@style/radionbutton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:text=" Leadership'"
+                            android:textColor="@color/black"
+                            android:enabled="false"
+                            android:textSize="18dp" />
+
+                    </RadioGroup>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+
+                    android:id="@+id/rel4"
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rel3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/button_border">
+
+                    <TextView
+                        android:id="@+id/questionari"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/times_new_roman_bold"
+                        android:text="Risultati questionari docenti:"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/inf_domande_questionari1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/questionari"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/times_new_roman"
+                        android:text="Lo studente sa lavorare bene in gruppo: Piu' si' che no"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/inf_domande_questionari2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/inf_domande_questionari1"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/times_new_roman"
+                        android:text="Lo studente sa guidare un gruppo: Piu' si' che no"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/inf_domande_questionari3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/inf_domande_questionari2"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/times_new_roman"
+                        android:text="Lo studente e' puntuale nelle consegne: Decisamente si"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/inf_domande_questionari4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/inf_domande_questionari3"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/times_new_roman"
+                        android:text="Lo studente saprebbe relazionarsi con clienti: Abbastanza"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+
+
+                </RelativeLayout>
+
+
+                <!-- Bottone per contattare-->
+
+                <Button
+                    android:layout_width="190dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/rel4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button3"
+                    android:fontFamily="@font/times_new_roman_bold"
+                    android:onClick="contatta"
+                    android:text="Contatta"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
 
 </RelativeLayout>

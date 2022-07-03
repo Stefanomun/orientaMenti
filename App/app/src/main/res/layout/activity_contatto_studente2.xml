@@ -204,7 +204,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:fontFamily="@font/times_new_roman"
-                            android:text="Certificazione inglese livello B2"
+                            android:text="Certificazione francese livello B2"
                             android:textColor="@color/black"
                             android:textSize="18dp" />
 

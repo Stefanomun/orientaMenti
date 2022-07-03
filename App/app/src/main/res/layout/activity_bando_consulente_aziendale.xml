@@ -135,15 +135,15 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="260dp"
-                    android:orientation="vertical"
-                    android:background="@drawable/button_border">
+                    android:background="@drawable/button_border"
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="8dp"
                         android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
                         android:fontFamily="@font/times_new_roman_bold"
                         android:text="Competenze richieste"
                         android:textColor="@color/black"
@@ -152,23 +152,24 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
-                        android:layout_marginLeft="10dp"
                         android:orientation="horizontal">
+
                         <TextView
                             android:layout_width="8dp"
                             android:layout_height="8dp"
                             android:layout_marginTop="6dp"
-                            android:background="@drawable/circle"/>
+                            android:background="@drawable/circle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/times_new_roman"
                             android:layout_marginLeft="5dp"
-                            android:textSize="18dp"
+                            android:fontFamily="@font/times_new_roman"
                             android:text="Diploma di Laurea - Classe L18"
-                            android:textColor="@color/black"/>
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
 
                     </LinearLayout>
 
@@ -177,20 +178,21 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:orientation="horizontal">
+
                         <TextView
                             android:layout_width="8dp"
                             android:layout_height="8dp"
                             android:layout_marginTop="6dp"
-                            android:background="@drawable/circle"/>
+                            android:background="@drawable/circle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/times_new_roman"
                             android:layout_marginLeft="5dp"
-                            android:textSize="18dp"
+                            android:fontFamily="@font/times_new_roman"
                             android:text="Lingua inglese - livello B2"
-                            android:textColor="@color/black"/>
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
 
                     </LinearLayout>
 
@@ -199,20 +201,21 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:orientation="horizontal">
+
                         <TextView
                             android:layout_width="8dp"
                             android:layout_height="8dp"
                             android:layout_marginTop="6dp"
-                            android:background="@drawable/circle"/>
+                            android:background="@drawable/circle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/times_new_roman"
                             android:layout_marginLeft="5dp"
-                            android:textSize="18dp"
+                            android:fontFamily="@font/times_new_roman"
                             android:text="Competenze matematiche avanzate"
-                            android:textColor="@color/black"/>
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
 
                     </LinearLayout>
 
@@ -222,20 +225,21 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginBottom="8dp"
                         android:orientation="horizontal">
+
                         <TextView
                             android:layout_width="8dp"
                             android:layout_height="8dp"
                             android:layout_marginTop="6dp"
-                            android:background="@drawable/circle"/>
+                            android:background="@drawable/circle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/times_new_roman"
                             android:layout_marginLeft="5dp"
-                            android:textSize="18dp"
+                            android:fontFamily="@font/times_new_roman"
                             android:text="Competenze informatiche avanzate"
-                            android:textColor="@color/black"/>
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -245,15 +249,15 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="390dp"
-                    android:orientation="vertical"
-                    android:background="@drawable/button_border">
+                    android:background="@drawable/button_border"
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="8dp"
                         android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
                         android:fontFamily="@font/times_new_roman_bold"
                         android:text="Soft-skills richieste"
                         android:textColor="@color/black"
@@ -263,23 +267,24 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
-                        android:layout_marginLeft="10dp"
                         android:orientation="horizontal">
+
                         <TextView
                             android:layout_width="8dp"
                             android:layout_height="8dp"
                             android:layout_marginTop="6dp"
-                            android:background="@drawable/circle"/>
+                            android:background="@drawable/circle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/times_new_roman"
                             android:layout_marginLeft="5dp"
-                            android:textSize="18dp"
+                            android:fontFamily="@font/times_new_roman"
                             android:text="Problem solving"
-                            android:textColor="@color/black"/>
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
 
                     </LinearLayout>
 
@@ -288,20 +293,21 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:orientation="horizontal">
+
                         <TextView
                             android:layout_width="8dp"
                             android:layout_height="8dp"
                             android:layout_marginTop="6dp"
-                            android:background="@drawable/circle"/>
+                            android:background="@drawable/circle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/times_new_roman"
                             android:layout_marginLeft="5dp"
-                            android:textSize="18dp"
+                            android:fontFamily="@font/times_new_roman"
                             android:text="Buone attitudini a lavorare in gruppo"
-                            android:textColor="@color/black"/>
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
 
                     </LinearLayout>
 
@@ -310,20 +316,21 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:orientation="horizontal">
+
                         <TextView
                             android:layout_width="8dp"
                             android:layout_height="8dp"
                             android:layout_marginTop="6dp"
-                            android:background="@drawable/circle"/>
+                            android:background="@drawable/circle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/times_new_roman"
                             android:layout_marginLeft="5dp"
-                            android:textSize="18dp"
+                            android:fontFamily="@font/times_new_roman"
                             android:text="Buone capacità di comunicazione"
-                            android:textColor="@color/black"/>
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
 
                     </LinearLayout>
 
@@ -333,23 +340,23 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginBottom="8dp"
                         android:orientation="horizontal">
+
                         <TextView
                             android:layout_width="8dp"
                             android:layout_height="8dp"
                             android:layout_marginTop="6dp"
-                            android:background="@drawable/circle"/>
+                            android:background="@drawable/circle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/times_new_roman"
                             android:layout_marginLeft="5dp"
-                            android:textSize="18dp"
+                            android:fontFamily="@font/times_new_roman"
                             android:text="Efficacia lavorativa"
-                            android:textColor="@color/black"/>
+                            android:textColor="@color/black"
+                            android:textSize="18dp" />
 
                     </LinearLayout>
-
 
 
                 </LinearLayout>
@@ -362,10 +369,10 @@
                     android:layout_marginTop="520dp"
                     android:background="@drawable/button3"
                     android:fontFamily="@font/times_new_roman_bold"
+                    android:onClick="candidatura"
                     android:text="Candidati"
                     android:textColor="@color/black"
-                    android:textSize="15dp"
-                    android:onClick="candidatura"/>
+                    android:textSize="15dp" />
             </RelativeLayout>
         </ScrollView>
     </LinearLayout>

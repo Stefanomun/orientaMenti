@@ -34,6 +34,7 @@ public class ListaBandiAzienda2 extends MenuStudente {
 
     public void bando1(View view){
         Intent home = new Intent(ListaBandiAzienda2.this, BandoCrewMember.class);
+        home.putExtra("bando", "lidl");
         startActivity(home);
     }
 }

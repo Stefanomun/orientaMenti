@@ -59,7 +59,7 @@
 
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="25dp"
                 android:id="@+id/edit_nome"
                 android:background="@drawable/button_border"
                 android:textColor="@color/black"
@@ -82,7 +82,7 @@
 
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="25dp"
                 android:id="@+id/edit_cognome"
                 android:background="@drawable/button_border"
                 android:textColor="@color/black"
@@ -105,7 +105,7 @@
 
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="25dp"
                 android:id="@+id/edit_istituto"
                 android:background="@drawable/button_border"
                 android:textColor="@color/black"
@@ -128,7 +128,7 @@
 
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="25dp"
                 android:id="@+id/edit_materia"
                 android:background="@drawable/button_border"
                 android:textColor="@color/black"
@@ -151,7 +151,7 @@
 
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="25dp"
                 android:id="@+id/edit_email"
                 android:background="@drawable/button_border"
                 android:textColor="@color/black"
@@ -174,7 +174,7 @@
 
             <EditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="25dp"
                 android:id="@+id/edit_password"
                 android:background="@drawable/button_border"
                 android:textColor="@color/black"

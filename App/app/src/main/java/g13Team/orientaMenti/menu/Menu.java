@@ -1,8 +1,6 @@
 package g13Team.orientaMenti.menu;
 
-import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -24,8 +22,5 @@ public abstract class Menu extends AppCompatActivity {
         toolbar.showOverflowMenu();
     }
 
-    public boolean onCreateOptionsMenu(android.view.Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_studente, menu);
-        return true;
-    }
+    public abstract boolean onCreateOptionsMenu(android.view.Menu menu);
 }

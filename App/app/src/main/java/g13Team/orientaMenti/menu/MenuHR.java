@@ -5,13 +5,15 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import g13Team.orientaMenti.R;
+import g13Team.orientaMenti.hr.ProfiloHR;
 import g13Team.orientaMenti.login.Login;
 
 public class MenuHR extends Menu {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.profilo:
-                Toast.makeText(menu, "Profilo", Toast.LENGTH_SHORT).show();
+                Intent profilo = new Intent(getApplicationContext(), ProfiloHR.class);
+                startActivity(profilo);
                 break;
 
             case R.id.logout:
@@ -19,6 +21,11 @@ public class MenuHR extends Menu {
                 startActivity(intent);
                 break;
         }
+        return true;
+    }
+
+    public boolean onCreateOptionsMenu(android.view.Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_docente_hr, menu);
         return true;
     }
 }

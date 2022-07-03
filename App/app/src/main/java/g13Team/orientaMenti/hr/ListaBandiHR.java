@@ -4,8 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import g13Team.orientaMenti.Chat;
 import g13Team.orientaMenti.R;
 import g13Team.orientaMenti.menu.MenuHR;
+import g13Team.orientaMenti.studente.DashboardStudente;
 
 public class ListaBandiHR extends MenuHR {
 
@@ -13,6 +15,7 @@ public class ListaBandiHR extends MenuHR {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lista_bandi_hr);
+        super.create(this);
     }
 
     public void indietro(View view){
@@ -20,7 +23,8 @@ public class ListaBandiHR extends MenuHR {
         startActivity(intent);
     }
 
-    /*public void aggiungiBando(View view){
-
-    }*/
+    public void home(View view){
+        Intent intent = new Intent(ListaBandiHR.this, DashboardHR.class);
+        startActivity(intent);
+    }
 }

@@ -37,7 +37,7 @@ public class ConfermaCandidatura extends MenuStudente {
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(getApplicationContext(), DashboardDocente.class);
+                Intent in = new Intent(getApplicationContext(), DashboardStudente.class);
                 startActivity(in);
             }
         });

@@ -7,11 +7,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import g13Team.orientaMenti.R;
+import g13Team.orientaMenti.menu.MenuHR;
 
-public class ContattoStudente1 extends AppCompatActivity {
+public class ContattoStudente1 extends MenuHR {
     ImageView logo;
 
     @Override
@@ -42,5 +41,15 @@ public class ContattoStudente1 extends AppCompatActivity {
             }
         });
         builder.show();
+    }
+
+    public void indietro(View view){
+        Intent intent = new Intent(ContattoStudente1.this, ListaStudentiHR.class);
+        startActivity(intent);
+    }
+
+    public void home(View view){
+        Intent in= new Intent (this, DashboardHR.class);
+        startActivity(in);
     }
 }

@@ -13,6 +13,7 @@ public class ListaStudentiHR extends MenuHR {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lista_studenti_hr);
+        super.create(this);
     }
 
     public void indietro(View view){

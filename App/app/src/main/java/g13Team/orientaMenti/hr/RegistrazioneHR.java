@@ -31,7 +31,7 @@ public class RegistrazioneHR extends AppCompatActivity {
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(getApplicationContext(), DashboardHR.class);
+                Intent in = new Intent(getApplicationContext(), Login.class);
                 startActivity(in);
             }
         });

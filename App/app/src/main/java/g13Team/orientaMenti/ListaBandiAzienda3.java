@@ -33,6 +33,7 @@ public class ListaBandiAzienda3 extends MenuStudente {
 
     public void bando1(View view){
         Intent home = new Intent(ListaBandiAzienda3.this, BandoConsulenteAziendale.class);
+        home.putExtra("bando", "intesa");
         startActivity(home);
     }
 }

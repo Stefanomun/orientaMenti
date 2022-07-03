@@ -7,11 +7,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import g13Team.orientaMenti.R;
+import g13Team.orientaMenti.menu.MenuHR;
 
-public class ContattoStudente4 extends AppCompatActivity {
+public class ContattoStudente4 extends MenuHR {
     ImageView logo;
 
     @Override

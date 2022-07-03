@@ -1,2 +1,4 @@
-package g13Team.orientaMenti.hr;public class ContattoStudente7 {
+package g13Team.orientaMenti.hr;
+
+public class ContattoStudente7 {
 }

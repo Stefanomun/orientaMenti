@@ -14,7 +14,6 @@ public class MenuHR extends Menu {
             case R.id.profilo:
                 Intent profilo = new Intent(getApplicationContext(), ProfiloHR.class);
                 startActivity(profilo);
-                Toast.makeText(menu, "Profilo", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.logout:

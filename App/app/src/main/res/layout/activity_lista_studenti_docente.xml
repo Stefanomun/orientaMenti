@@ -116,13 +116,39 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_below="@+id/studente1"
                         android:layout_alignLeft="@+id/studente1"
+                        android:layout_marginTop="10dp"
                         android:text="Classe 5A"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:typeface="serif" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_toRightOf="@id/imageStudente1"
+                        android:layout_marginTop="108dp"
+                        android:layout_marginLeft="28dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vai al questionario"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginLeft="5dp"/>
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/vai"/>
+                    </LinearLayout>
 
                 </RelativeLayout>
 
@@ -171,6 +197,32 @@
                         android:textSize="20dp"
                         android:typeface="serif" />
 
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_toRightOf="@id/imageStudente2"
+                        android:layout_marginTop="108dp"
+                        android:layout_marginLeft="28dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vai al questionario"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginLeft="5dp"/>
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/vai"/>
+                    </LinearLayout>
+
                 </RelativeLayout>
 
                 <!--Terza Card -->
@@ -178,8 +230,8 @@
                     android:id="@+id/card3"
                     android:layout_width="380dp"
                     android:layout_height="150dp"
-                    android:layout_centerHorizontal="true"
                     android:layout_below="@+id/card2"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
                     android:onClick="questionario">
@@ -197,8 +249,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
-                        android:layout_marginTop="20dp"
                         android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
                         android:layout_toRightOf="@id/imageStudente3"
                         android:letterSpacing="-0.02"
                         android:text="Roberta Russo"
@@ -210,13 +262,39 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_below="@+id/studente3"
                         android:layout_alignLeft="@+id/studente3"
+                        android:layout_marginTop="10dp"
                         android:text="Classe 5A"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:typeface="serif" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_toRightOf="@id/imageStudente3"
+                        android:layout_marginTop="108dp"
+                        android:layout_marginLeft="28dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vai al questionario"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginLeft="5dp"/>
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/vai"/>
+                    </LinearLayout>
 
                 </RelativeLayout>
 

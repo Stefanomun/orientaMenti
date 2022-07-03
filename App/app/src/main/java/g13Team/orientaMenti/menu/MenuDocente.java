@@ -14,7 +14,6 @@ public class MenuDocente extends Menu {
             case R.id.profilo:
                 Intent profilo = new Intent(getApplicationContext(), ProfiloDocente.class);
                 startActivity(profilo);
-                Toast.makeText(menu, "Profilo", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.logout:

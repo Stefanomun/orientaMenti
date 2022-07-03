@@ -16,13 +16,11 @@ public class MenuStudente extends Menu {
             case R.id.messaggi:
                 Intent messaggi = new Intent(this, Messaggi.class);
                 startActivity(messaggi);
-                Toast.makeText(menu, "Messaggi", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.profilo:
                 Intent profilo = new Intent(getApplicationContext(), ProfiloStudente.class);
                 startActivity(profilo);
-                Toast.makeText(menu, "Profilo", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.logout:

@@ -169,7 +169,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/image_border"
                         android:scaleType="centerInside"
-                        app:srcCompat="@drawable/studente2" />
+                        app:srcCompat="@drawable/studente3" />
 
                     <TextView
                         android:id="@+id/studente2"

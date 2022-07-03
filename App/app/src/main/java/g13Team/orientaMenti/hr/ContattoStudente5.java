@@ -16,7 +16,7 @@ public class ContattoStudente5 extends MenuHR {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contatto_studente4);
+        setContentView(R.layout.activity_contatto_studente5);
         logo = findViewById(R.id.logo);
 
 

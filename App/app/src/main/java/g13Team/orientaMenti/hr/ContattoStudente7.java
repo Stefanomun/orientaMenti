@@ -32,12 +32,12 @@ public class ContattoStudente7 extends MenuHR {
     }
 
     public void indietro(View view){
-        Intent intent = new Intent(ContattoStudente4.this, ListaStudentiHR.class);
+        Intent intent = new Intent(ContattoStudente7.this, ListaStudentiHR.class);
         startActivity(intent);
     }
 
     public void contatta(View v) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(ContattoStudente4.this);
+        AlertDialog.Builder builder = new AlertDialog.Builder(ContattoStudente7.this);
         final View customLayout = getLayoutInflater().inflate(R.layout.custom_alert_dialog_student_contact, null);
         builder.setView(customLayout);
         Button goBack = customLayout.findViewById(R.id.btn_dialog);

@@ -17,6 +17,7 @@ public class ProfiloHR extends MenuHR {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profilo_hr);
+        super.create(this);
     }
 
     public void indietro(View v){

@@ -15,6 +15,7 @@ public class ListaBandiHR extends MenuHR {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lista_bandi_hr);
+        super.create(this);
     }
 
     public void indietro(View view){

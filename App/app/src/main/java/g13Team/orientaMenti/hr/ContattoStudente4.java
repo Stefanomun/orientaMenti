@@ -23,19 +23,19 @@ public class ContattoStudente4 extends MenuHR {
         logo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent goTo= new Intent(getApplicationContext(), DashboardHR.class);
+                Intent goTo = new Intent(getApplicationContext(), DashboardHR.class);
                 startActivity(goTo);
             }
 
         });
-
+        super.create(this);
     }
 
-    public void contatta(View v){
-        AlertDialog.Builder builder= new AlertDialog.Builder(ContattoStudente4.this);
-        final View customLayout= getLayoutInflater().inflate(R.layout.custom_alert_dialog_student_contact, null);
+    public void contatta(View v) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(ContattoStudente4.this);
+        final View customLayout = getLayoutInflater().inflate(R.layout.custom_alert_dialog_student_contact, null);
         builder.setView(customLayout);
-        Button goBack= customLayout.findViewById(R.id.btn_dialog);
+        Button goBack = customLayout.findViewById(R.id.btn_dialog);
         goBack.setOnClickListener(new View.OnClickListener() {
 
             @Override

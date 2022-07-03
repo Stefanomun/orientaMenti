@@ -24,4 +24,9 @@ public class MenuHR extends Menu {
         }
         return true;
     }
+
+    public boolean onCreateOptionsMenu(android.view.Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_docente_hr, menu);
+        return true;
+    }
 }

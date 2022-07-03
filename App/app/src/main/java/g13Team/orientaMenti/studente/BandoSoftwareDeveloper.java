@@ -1,7 +1,5 @@
 package g13Team.orientaMenti.studente;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -20,17 +18,17 @@ public class BandoSoftwareDeveloper extends MenuStudente {
         super.create(this);
     }
 
-    public void indietro(View view){
+    public void indietro(View view) {
         Intent intent = new Intent(BandoSoftwareDeveloper.this, ListaBandi.class);
         startActivity(intent);
     }
 
-    public void home(View view){
+    public void home(View view) {
         Intent intent = new Intent(BandoSoftwareDeveloper.this, DashboardStudente.class);
         startActivity(intent);
     }
 
-    public void candidatura(View view){
+    public void candidatura(View view) {
         Intent intent = new Intent(BandoSoftwareDeveloper.this, ConfermaCandidatura.class);
         startActivity(intent);
     }

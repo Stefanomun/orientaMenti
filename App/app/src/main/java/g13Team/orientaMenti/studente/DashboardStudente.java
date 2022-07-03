@@ -18,12 +18,12 @@ public class DashboardStudente extends MenuStudente {
         super.create(this);
     }
 
-    public void listaAziende(View view){
+    public void listaAziende(View view) {
         Intent intent = new Intent(DashboardStudente.this, ListaAziende.class);
         startActivity(intent);
     }
 
-    public void listaBandi(View view){
+    public void listaBandi(View view) {
         Intent intent = new Intent(DashboardStudente.this, ListaBandi.class);
         startActivity(intent);
     }

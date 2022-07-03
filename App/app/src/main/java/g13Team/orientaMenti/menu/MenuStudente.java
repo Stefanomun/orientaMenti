@@ -32,4 +32,9 @@ public class MenuStudente extends Menu {
         }
         return true;
     }
+
+    public boolean onCreateOptionsMenu(android.view.Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_studente, menu);
+        return true;
+    }
 }

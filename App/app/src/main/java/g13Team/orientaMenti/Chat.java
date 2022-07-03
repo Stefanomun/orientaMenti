@@ -1,7 +1,5 @@
 package g13Team.orientaMenti;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -12,11 +10,10 @@ import java.util.ArrayList;
 
 import g13Team.orientaMenti.menu.MenuStudente;
 import g13Team.orientaMenti.studente.AdapterMessaggio;
-import g13Team.orientaMenti.studente.BandoConsulenteAziendale;
 import g13Team.orientaMenti.studente.DashboardStudente;
 import g13Team.orientaMenti.studente.Messaggi;
 
-public class Chat extends AppCompatActivity {
+public class Chat extends MenuStudente {
 
     private AdapterMessaggio adapterMessaggio;
 
@@ -26,6 +23,7 @@ public class Chat extends AppCompatActivity {
         setContentView(R.layout.activity_chat);
 
         ListView listView = findViewById(R.id.messaggi);
+        super.create(this);
 
         adapterMessaggio = new AdapterMessaggio(this, R.layout.activity_messaggio_inviato, new ArrayList<String>());
 
@@ -44,12 +42,12 @@ public class Chat extends AppCompatActivity {
         editText.setText("");
     }
 
-    public void indietro(View view){
+    public void indietro(View view) {
         Intent intent = new Intent(Chat.this, Messaggi.class);
         startActivity(intent);
     }
 
-    public void home(View view){
+    public void home(View view) {
         Intent intent = new Intent(Chat.this, DashboardStudente.class);
         startActivity(intent);
     }

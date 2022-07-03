@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@style/Theme.MyApplication">
+    <item
+        android:id="@+id/meta"
+        android:orderInCategory="100"
+        android:title="Meta" />
+    <item
+        android:id="@+id/lidl"
+        android:orderInCategory="100"
+        android:title="Lidl" />
+    <item
+        android:id="@+id/intesa"
+        android:orderInCategory="100"
+        android:title="Intesa SanPaolo"
+        />
+</menu>

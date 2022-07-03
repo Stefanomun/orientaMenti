@@ -16,7 +16,7 @@ Per accedere come studente usare le seguenti credenziali:
   - Password: studente
   
 Per accedere come docente usare le seguenti credenziali:
-  - Email: paolo.bainchi@docenti.it
+  - Email: paolo.bianchi@docenti.it
   - Password: docente
   
 Per accedere come HR Manager usare le seguenti credenziali:

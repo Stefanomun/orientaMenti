@@ -14,6 +14,7 @@ public class ListaStudentiDocente extends MenuDocente {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lista_studenti_docente);
+        super.create(this);
     }
 
     public void questionario(View view){

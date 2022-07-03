@@ -17,6 +17,7 @@ public class ProfiloDocente extends MenuDocente {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profilo_docente);
+        super.create(this);
     }
 
     public void indietro(View v){

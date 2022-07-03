@@ -13,7 +13,7 @@ public class DashboardDocente extends MenuDocente {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard_docente);
-
+        super.create(this);
     }
 
     public void listaStudenti(View view){

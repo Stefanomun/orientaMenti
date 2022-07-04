@@ -82,7 +82,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
                 app:collapseIcon="@drawable/sort"
-                app:popupTheme="@style/filtroCitta" />
+                app:popupTheme="@style/filtro" />
 
             <ImageView
                 android:layout_width="60dp"

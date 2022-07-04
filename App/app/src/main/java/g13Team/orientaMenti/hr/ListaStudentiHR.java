@@ -5,21 +5,14 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.RelativeLayout;
-import android.widget.ScrollView;
-import android.widget.Toast;
 
 import androidx.appcompat.widget.Toolbar;
 
 import java.util.ArrayList;
 
-import g13Team.orientaMenti.ListaBandiAzienda1;
-import g13Team.orientaMenti.ListaBandiAzienda2;
-import g13Team.orientaMenti.ListaBandiAzienda3;
 import g13Team.orientaMenti.R;
 import g13Team.orientaMenti.login.Login;
 import g13Team.orientaMenti.menu.MenuHR;
-import g13Team.orientaMenti.studente.Messaggi;
-import g13Team.orientaMenti.studente.ProfiloStudente;
 
 public class ListaStudentiHR extends MenuHR {
 

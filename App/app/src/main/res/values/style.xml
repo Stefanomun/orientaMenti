@@ -19,6 +19,13 @@
         <item name="android:textSize">25sp</item>
         <item name="popupMenuBackground">@drawable/popup_menu</item>
     </style>
+    <style name="filtroCitta" parent="Theme.MyApplication">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:popupElevation">8dp</item>
+        <item name="fontFamily">@font/times_new_roman_bold</item>
+        <item name="android:textSize">25sp</item>
+        <item name="popupMenuBackground">@drawable/popup_menu</item>
+    </style>
     <style name="radionbutton"
         parent="Base.Widget.AppCompat.CompoundButton.RadioButton">
         <item name="android:button">@drawable/radiobutton_drawable</item>

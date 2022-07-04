@@ -55,18 +55,43 @@
         android:background="@drawable/border"
         android:orientation="vertical">
 
-        <!--View della scritta Lista Aziende -->
-        <TextView
-            android:id="@+id/ListaAziende"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="4dp"
-            android:letterSpacing="-0.02"
-            android:text="Lista Studenti"
-            android:textColor="@color/black"
-            android:textSize="35dp"
-            android:typeface="serif" />
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!--View della scritta Lista Aziende -->
+            <TextView
+                android:id="@+id/ListaAziende"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:letterSpacing="-0.02"
+                android:text="Lista Studenti"
+                android:textColor="@color/black"
+                android:textSize="35dp"
+                android:typeface="serif" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/filtri"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                app:collapseIcon="@drawable/sort"
+                app:popupTheme="@style/filtroCitta" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:onClick="filtri"
+                app:srcCompat="@drawable/sort"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
 
         <!--View per poter effettuare lo scroll -->
         <ScrollView
@@ -76,12 +101,14 @@
 
             <!--Layout che è servito per creare la zona dove inserire le cards -->
             <RelativeLayout
+                android:id="@+id/listaStudenti"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <!--Prima Card -->
                 <RelativeLayout
                     android:id="@+id/card1"
+                    android:tag="Salerno"
                     android:layout_width="380dp"
                     android:layout_height="150dp"
                     android:layout_centerHorizontal="true"
@@ -130,6 +157,7 @@
                     android:id="@+id/card2"
                     android:layout_width="380dp"
                     android:layout_height="150dp"
+                    android:tag="Fisciano"
                     android:layout_below="@+id/card1"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
@@ -178,6 +206,7 @@
                     android:layout_width="380dp"
                     android:layout_height="150dp"
                     android:layout_below="@+id/card2"
+                    android:tag="Fisciano"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
@@ -225,6 +254,7 @@
                     android:layout_width="380dp"
                     android:layout_height="150dp"
                     android:layout_below="@+id/card3"
+                    android:tag="Fisciano"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/button_border"
@@ -274,6 +304,7 @@
                     android:layout_below="@+id/card4"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
+                    android:tag="Fisciano"
                     android:background="@drawable/button_border"
                     android:onClick="studente5">
 
@@ -316,6 +347,7 @@
                 <!--Sesta Card -->
                 <RelativeLayout
                     android:id="@+id/card6"
+                    android:tag="Salerno"
                     android:layout_width="380dp"
                     android:layout_height="150dp"
                     android:layout_below="@+id/card5"
@@ -365,9 +397,10 @@
                     android:id="@+id/card7"
                     android:layout_width="380dp"
                     android:layout_height="150dp"
-                    android:layout_centerHorizontal="true"
                     android:layout_below="@+id/card6"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
+                    android:tag="Salerno"
                     android:background="@drawable/button_border"
                     android:onClick="studente7">
 
@@ -384,8 +417,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
-                        android:layout_marginTop="20dp"
                         android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
                         android:layout_toRightOf="@id/imageStudente7"
                         android:letterSpacing="-0.02"
                         android:text="Roberta Russo"
@@ -397,9 +430,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
                         android:layout_below="@+id/studente7"
                         android:layout_alignLeft="@+id/studente7"
+                        android:layout_marginTop="10dp"
                         android:text="Istituto ''Alfano I'' - Salerno(SA)"
                         android:textColor="@color/black"
                         android:textSize="20dp"

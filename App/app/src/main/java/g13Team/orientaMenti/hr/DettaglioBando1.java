@@ -25,4 +25,14 @@ public class DettaglioBando1 extends MenuHR {
         Intent in= new Intent(getApplicationContext(), DashboardHR.class);
         startActivity(in);
     }
+
+    public void studente1(View v){
+        Intent goStudente1= new Intent(getApplicationContext(), ContattoStudente1.class);
+        startActivity(goStudente1);
+    }
+
+    public void studente2(View v){
+        Intent goStudente2= new Intent (getApplicationContext(), ContattoStudente2.class);
+        startActivity(goStudente2);
+    }
 }

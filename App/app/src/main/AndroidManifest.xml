@@ -113,6 +113,9 @@
             android:name=".docente.RegistrazioneDocente"
             android:exported="true" />
         <activity
+            android:name=".hr.DettaglioBando1"
+            android:exported="true"/>
+        <activity
             android:name=".hr.ContattoStudente1"
             android:exported="true" />
         <activity

@@ -12,7 +12,7 @@
         <item name="android:textSize">25sp</item>
         <item name="popupMenuBackground">@drawable/popup_menu</item>
     </style>
-    <style name="filtroBandi" parent="Theme.MyApplication">
+    <style name="filtro" parent="Theme.MyApplication">
         <item name="android:textColor">@color/black</item>
         <item name="android:popupElevation">8dp</item>
         <item name="fontFamily">@font/times_new_roman_bold</item>

@@ -56,18 +56,42 @@
         android:background="@drawable/border"
         android:orientation="vertical">
 
-        <!--View della scritta Lista Aziende -->
-        <TextView
-            android:id="@+id/ListaAziende"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="4dp"
-            android:letterSpacing="-0.02"
-            android:text="Lista Studenti"
-            android:textColor="@color/black"
-            android:textSize="35dp"
-            android:typeface="serif" />
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!--View della scritta Lista Aziende -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:letterSpacing="-0.02"
+                android:text="Lista Studenti"
+                android:textColor="@color/black"
+                android:textSize="35dp"
+                android:typeface="serif" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/filtri"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                app:collapseIcon="@drawable/sort"
+                app:popupTheme="@style/filtro" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:onClick="filtri"
+                app:srcCompat="@drawable/sort"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
 
         <!--View per poter effettuare lo scroll -->
         <ScrollView
@@ -77,12 +101,14 @@
 
             <!--Layout che è servito per creare la zona dove inserire le cards -->
             <RelativeLayout
+                android:id="@+id/listaStudenti"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <!--Prima Card -->
                 <RelativeLayout
                     android:id="@+id/card1"
+                    android:tag="Classe5A"
                     android:layout_width="380dp"
                     android:layout_height="150dp"
                     android:layout_centerHorizontal="true"
@@ -155,6 +181,7 @@
                 <!--Seconda Card -->
                 <RelativeLayout
                     android:id="@+id/card2"
+                    android:tag="Classe5A"
                     android:layout_width="380dp"
                     android:layout_height="150dp"
                     android:layout_centerHorizontal="true"
@@ -169,7 +196,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/image_border"
                         android:scaleType="centerInside"
-                        app:srcCompat="@drawable/studente2" />
+                        app:srcCompat="@drawable/studente3" />
 
                     <TextView
                         android:id="@+id/studente2"
@@ -228,6 +255,7 @@
                 <!--Terza Card -->
                 <RelativeLayout
                     android:id="@+id/card3"
+                    android:tag="Classe5A"
                     android:layout_width="380dp"
                     android:layout_height="150dp"
                     android:layout_below="@+id/card2"
@@ -275,6 +303,154 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:layout_toRightOf="@id/imageStudente3"
+                        android:layout_marginTop="108dp"
+                        android:layout_marginLeft="28dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vai al questionario"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginLeft="5dp"/>
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/vai"/>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <!--Quarta Card -->
+                <RelativeLayout
+                    android:id="@+id/card4"
+                    android:tag="Classe5B"
+                    android:layout_width="380dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/card3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_border"
+                    android:onClick="questionario">
+
+                    <ImageView
+                        android:id="@+id/imageStudente4"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/studente4" />
+
+                    <TextView
+                        android:id="@+id/studente4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/imageStudente4"
+                        android:letterSpacing="-0.02"
+                        android:text="Luigi De Luca"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/studente4"
+                        android:layout_alignLeft="@+id/studente4"
+                        android:layout_marginTop="10dp"
+                        android:text="Classe 5B"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:typeface="serif" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_toRightOf="@id/imageStudente4"
+                        android:layout_marginTop="108dp"
+                        android:layout_marginLeft="28dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vai al questionario"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:fontFamily="@font/times_new_roman"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginLeft="5dp"/>
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/vai"/>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <!--Quinta Card -->
+                <RelativeLayout
+                    android:id="@+id/card5"
+                    android:tag="Classe5B"
+                    android:layout_width="380dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/card4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_border"
+                    android:onClick="questionario">
+
+                    <ImageView
+                        android:id="@+id/imageStudente5"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/studente5" />
+
+                    <TextView
+                        android:id="@+id/studente5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/imageStudente5"
+                        android:letterSpacing="-0.02"
+                        android:text="Veronica Vespa"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/studente5"
+                        android:layout_alignLeft="@+id/studente5"
+                        android:layout_marginTop="10dp"
+                        android:text="Classe 5B"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:typeface="serif" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_toRightOf="@id/imageStudente5"
                         android:layout_marginTop="108dp"
                         android:layout_marginLeft="28dp">
 

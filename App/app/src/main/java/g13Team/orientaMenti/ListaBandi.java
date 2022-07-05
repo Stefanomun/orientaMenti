@@ -92,15 +92,15 @@ public class ListaBandi extends MenuStudente {
                 break;
 
             case R.id.meta:
-                startActivity(new Intent(this, ListaBandiAzienda1.class));
+                startActivity(new Intent(this, ListaBandiAzienda1.class).putExtra("indietroAlternativo", true));
                 break;
 
             case R.id.lidl:
-                startActivity(new Intent(this, ListaBandiAzienda2.class));
+                startActivity(new Intent(this, ListaBandiAzienda2.class).putExtra("indietroAlternativo", true));
                 break;
 
             case R.id.intesa:
-                startActivity(new Intent(this, ListaBandiAzienda3.class));
+                startActivity(new Intent(this, ListaBandiAzienda3.class).putExtra("indietroAlternativo", true));
                 break;
         }
         return true;

@@ -32,6 +32,11 @@ public class ContattoStudente3 extends MenuHR {
         super.create(this);
     }
 
+    public void indietro(View view){
+        Intent intent = new Intent(ContattoStudente3.this, ListaStudentiHR.class);
+        startActivity(intent);
+    }
+
     public void contatta(View v) {
         AlertDialog.Builder builder = new AlertDialog.Builder(ContattoStudente3.this);
         final View customLayout = getLayoutInflater().inflate(R.layout.custom_alert_dialog_student_contact, null);

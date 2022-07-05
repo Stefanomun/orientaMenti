@@ -83,7 +83,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
-                app:popupTheme="@style/filtroBandi"
+                app:popupTheme="@style/filtro"
                 app:collapseIcon="@drawable/sort"/>
 
             <ImageView

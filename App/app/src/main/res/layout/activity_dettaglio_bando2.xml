@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#926151"
+    tools:context=".hr.DettaglioBando2">
+
+    <!--Freccia per tornare alla pagina precedente -->
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="indietro"
+        android:src="@drawable/undo" />
+
+    <!--Hamburger Menu -->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:collapseIcon="@drawable/menu"
+        app:popupTheme="@style/menuHam" />
+
+    <ImageView
+
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="menu"
+        app:srcCompat="@drawable/menu" />
+
+    <!--Logo dell' orientaMenti -->
+
+    <ImageView
+
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="home"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/ListaAziende"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:letterSpacing="-0.02"
+            android:text="Bando per Project\n Manager"
+            android:textColor="@color/black"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+
+            android:id="@+id/lista_studenti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lista candidati:"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:typeface="serif"/>
+
+        <!--View per poter effettuare lo scroll -->
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:fillViewport="true">
+
+            <!--Layout per la visualizzazione degli studenti -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--Prima Card studente -->
+
+                <RelativeLayout
+
+                    android:id="@+id/card4"
+                    android:layout_width="380dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_border"
+                    android:onClick="studente4"
+                    android:tag="Fisciano">
+
+                    <ImageView
+                        android:id="@+id/imageStudente4"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/sabato" />
+
+                    <TextView
+
+                        android:id="@+id/studente4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/imageStudente4"
+                        android:letterSpacing="-0.02"
+                        android:text="Sabato Genovese"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/studente4"
+                        android:layout_alignLeft="@+id/studente4"
+                        android:layout_marginTop="10dp"
+                        android:text="Università degli studi di Salerno - Fisciano(SA)"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:typeface="serif" />
+
+                </RelativeLayout>
+
+                <!-- Seconda card studente-->
+
+                <RelativeLayout
+                    android:id="@+id/card5"
+                    android:layout_width="380dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/card4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_border"
+                    android:onClick="studente5"
+                    android:tag="Fisciano">
+
+                    <ImageView
+                        android:id="@+id/imageStudente5"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/angela" />
+
+                    <TextView
+                        android:id="@+id/studente5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/imageStudente5"
+                        android:letterSpacing="-0.02"
+                        android:text="Angela De Martino"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/studente5"
+                        android:layout_alignLeft="@+id/studente5"
+                        android:layout_marginTop="10dp"
+                        android:text="Università degli studi di Salerno - Fisciano(SA)"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:typeface="serif" />
+
+                </RelativeLayout>
+
+
+                <!-- Terza card studente-->
+
+                <RelativeLayout
+                    android:id="@+id/card6"
+                    android:layout_width="380dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/card5"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_border"
+                    android:onClick="studente6"
+                    android:tag="Salerno">
+
+                    <ImageView
+                        android:id="@+id/imageStudente6"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/studente3" />
+
+                    <TextView
+                        android:id="@+id/studente6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/imageStudente6"
+                        android:letterSpacing="-0.02"
+                        android:text="Alberto Fontana"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/studente6"
+                        android:layout_alignLeft="@+id/studente6"
+                        android:layout_marginTop="10dp"
+                        android:text="Istituto ''Alfano I'' - Salerno(SA)"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:typeface="serif" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- bottone di chiusura bando-->
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/button1"
+                android:fontFamily="@font/times_new_roman_bold"
+                android:onClick="chiudi"
+                android:layout_marginTop="20dp"
+                android:text="Chiudi Bando"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

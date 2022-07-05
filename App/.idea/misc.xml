@@ -6,11 +6,6 @@
         <entry key="..\:/Users/Antonio/AndroidStudioProjects/orientaMenti/App/app/src/main/res/layout/activity_bando_consulente_aziendale.xml" value="0.371875" />
         <entry key="..\:/Users/Antonio/AndroidStudioProjects/orientaMenti/App/app/src/main/res/layout/activity_contatto_studente1.xml" value="0.36730072463768115" />
         <entry key="..\:/Users/Antonio/AndroidStudioProjects/orientaMenti/App/app/src/main/res/layout/activity_contatto_studente2.xml" value="0.371875" />
-        <entry key="..\:/Users/Antonio/AndroidStudioProjects/orientaMenti/App/app/src/main/res/layout/activity_contatto_studente3.xml" value="0.371875" />
-        <entry key="..\:/Users/Antonio/AndroidStudioProjects/orientaMenti/App/app/src/main/res/layout/activity_contatto_studente4.xml" value="0.371875" />
-        <entry key="..\:/Users/Antonio/AndroidStudioProjects/orientaMenti/App/app/src/main/res/layout/activity_contatto_studente5.xml" value="0.371875" />
-        <entry key="..\:/Users/Antonio/AndroidStudioProjects/orientaMenti/App/app/src/main/res/layout/activity_contatto_studente6.xml" value="0.371875" />
-        <entry key="..\:/Users/Antonio/AndroidStudioProjects/orientaMenti/App/app/src/main/res/layout/activity_contatto_studente7.xml" value="0.371875" />
         <entry key="..\:/Users/Antonio/AndroidStudioProjects/orientaMenti/App/app/src/main/res/layout/activity_dashboard_docente.xml" value="0.33" />
         <entry key="..\:/Users/Antonio/AndroidStudioProjects/orientaMenti/App/app/src/main/res/layout/activity_dashboard_hr.xml" value="0.3269927536231884" />
         <entry key="..\:/Users/Antonio/AndroidStudioProjects/orientaMenti/App/app/src/main/res/layout/activity_dashboard_studente.xml" value="0.29393115942028986" />
@@ -22,6 +17,9 @@
         <entry key="..\:/Users/Antonio/AndroidStudioProjects/orientaMenti/App/app/src/main/res/layout/activity_main.xml" value="0.18085106382978725" />
         <entry key="..\:/Users/Antonio/AndroidStudioProjects/orientaMenti/App/app/src/main/res/layout/activity_registrazione_hr.xml" value="0.371875" />
         <entry key="..\:/Users/Antonio/AndroidStudioProjects/orientaMenti/App/app/src/main/res/layout/activity_registrazione_studente.xml" value="0.371875" />
+        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_dettaglio_bando1.xml" value="0.14296875" />
+        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_lista_bandi_hr.xml" value="0.190625" />
+        <entry key="..\:/Users/angel/OneDrive/Documents/GitHub/orientaMenti/App/app/src/main/res/layout/activity_lista_studenti_hr.xml" value="0.1" />
         <entry key="..\:/Users/sabat/Desktop/App/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/sabat/OneDrive - Università di Salerno/3 ANNO/Interazione Uomo Macchina/orientaMenti/App/app/src/main/res/drawable/border.xml" value="0.122" />
         <entry key="..\:/Users/sabat/OneDrive - Università di Salerno/3 ANNO/Interazione Uomo Macchina/orientaMenti/App/app/src/main/res/drawable/button_border.xml" value="0.2065" />

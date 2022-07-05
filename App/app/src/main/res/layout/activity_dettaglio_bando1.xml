@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#926151"
+    tools:context=".hr.DettaglioBando1">
+
+    <!--Freccia per tornare alla pagina precedente -->
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="indietro"
+        android:src="@drawable/undo" />
+
+    <!--Hamburger Menu -->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:collapseIcon="@drawable/menu"
+        app:popupTheme="@style/menuHam" />
+
+    <ImageView
+
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="menu"
+        app:srcCompat="@drawable/menu" />
+
+    <!--Logo dell' orientaMenti -->
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="home"
+        app:srcCompat="@drawable/logo" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/ListaAziende"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:letterSpacing="-0.02"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Bando per Software\n Developer"
+            android:textColor="@color/black"
+            android:textSize="28dp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/lista_studenti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lista candidati:"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:typeface="serif"/>
+
+        <!--View per poter effettuare lo scroll -->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:fillViewport="true">
+
+            <!--Layout per la visualizzazione degli studenti -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--Prima Card studente -->
+
+                <RelativeLayout
+                    android:id="@+id/card1"
+                    android:tag="Salerno"
+                    android:layout_width="380dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_border"
+                    android:onClick="studente1">
+
+                    <ImageView
+                        android:id="@+id/imageStudente1"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/studentessa" />
+
+                    <TextView
+                        android:id="@+id/studente1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/imageStudente1"
+                        android:letterSpacing="-0.02"
+                        android:text="Marta Rossi"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/studente1"
+                        android:layout_alignLeft="@+id/studente1"
+                        android:layout_marginTop="10dp"
+                        android:text="Istituto ''Alfano I'' - Salerno(SA)"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:typeface="serif" />
+
+                </RelativeLayout>
+
+                <!--Seconda Card studente-->
+
+                <RelativeLayout
+                    android:id="@+id/card2"
+                    android:layout_width="380dp"
+                    android:layout_height="150dp"
+                    android:tag="Fisciano"
+                    android:layout_below="@+id/card1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_border"
+                    android:onClick="studente2">
+
+                    <ImageView
+                        android:id="@+id/imageStudente2"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/image_border"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/stefano" />
+
+                    <TextView
+                        android:id="@+id/studente2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/imageStudente2"
+                        android:letterSpacing="-0.02"
+                        android:text="Stefano Mungiello"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/studente2"
+                        android:layout_alignLeft="@+id/studente2"
+                        android:layout_marginTop="10dp"
+                        android:text="Università degli studi di Salerno - Fisciano(SA)"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:typeface="serif" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

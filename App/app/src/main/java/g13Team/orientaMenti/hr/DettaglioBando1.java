@@ -35,4 +35,9 @@ public class DettaglioBando1 extends MenuHR {
         Intent goStudente2= new Intent (getApplicationContext(), ContattoStudente2.class);
         startActivity(goStudente2);
     }
+
+    public void chiudi(View v){
+        Intent chiudi= new Intent(getApplicationContext(), ListaBandiHR.class);
+        startActivity(chiudi);
+    }
 }

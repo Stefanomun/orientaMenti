@@ -1,11 +1,15 @@
 package g13Team.orientaMenti.hr;
 
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import g13Team.orientaMenti.R;
+import g13Team.orientaMenti.login.Login;
 import g13Team.orientaMenti.menu.MenuHR;
+import g13Team.orientaMenti.studente.RegistrazioneStudente;
 
 public class DettaglioBando1 extends MenuHR {
 
@@ -37,7 +41,25 @@ public class DettaglioBando1 extends MenuHR {
     }
 
     public void chiudi(View v){
-        Intent chiudi= new Intent(getApplicationContext(), ListaBandiHR.class);
-        startActivity(chiudi);
+        AlertDialog.Builder builder= new AlertDialog.Builder(DettaglioBando1.this);
+        final View customLayout= getLayoutInflater().inflate(R.layout.custom_alert_dialog_confirm_close_bando, null);
+        builder.setView(customLayout);
+        Button no= customLayout.findViewById(R.id.btn_no);
+        Button si= customLayout.findViewById(R.id.btn_yes);
+        no.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in= new Intent(getApplicationContext(), DettaglioBando1.class);
+                startActivity(in);
+            }
+        });
+        si.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in= new Intent(getApplicationContext(), ListaBandiHR.class);
+                startActivity(in);
+            }
+        });
+        builder.show();
     }
 }

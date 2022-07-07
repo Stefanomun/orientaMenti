@@ -28,14 +28,8 @@ public class ListaBandiHR extends MenuHR {
         startActivity(intent);
     }
 
-    public void bando1(View v){
-        Intent intent = new Intent(ListaBandiHR.this, DettaglioBando1.class);
+    public void aggiungiBando(View view){
+        Intent intent = new Intent(ListaBandiHR.this, NuovoBando.class);
         startActivity(intent);
     }
-
-    public void bando2(View v){
-        Intent intent = new Intent(ListaBandiHR.this, DettaglioBando2.class);
-        startActivity(intent);
-    }
-
 }

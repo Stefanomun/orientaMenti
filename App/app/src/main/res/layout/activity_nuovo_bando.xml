@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#926151"
+    tools:context=".hr.NuovoBando">
+
+    <!--Freccia per tornare alla schermata precedente -->
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="indietro"
+        android:src="@drawable/undo" />
+
+    <!--Menu -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        app:collapseIcon="@drawable/menu"
+        app:popupTheme="@style/menuHam" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="menu"
+        app:srcCompat="@drawable/menu" />
+
+    <!--Logo dell' app -->
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="home"
+        app:srcCompat="@drawable/logo" />
+
+    <!--Parte giallo ocra dello schermo, dove saranno presenti le cards -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <!--View della scritta Lista Aziende -->
+        <TextView
+            android:id="@+id/ListaAziende"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:letterSpacing="-0.02"
+            android:text="Nuovo Bando"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:typeface="serif" />
+
+        <!--View per poter effettuare lo scroll -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <!--Layout che è servito per creare la zona dove inserire le cards -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/titolo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Titolo: "
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:typeface="serif"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:id="@+id/edit_titolo"
+                    android:background="@drawable/button_border"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:textAlignment="center"
+                    android:inputType="text"/>
+
+                <TextView
+                    android:id="@+id/descrizione"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Descrizione: "
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:typeface="serif"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:id="@+id/edit_descrizione"
+                    android:background="@drawable/button_border"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:textAlignment="center"
+                    android:inputType="text"/>
+
+                <TextView
+                    android:id="@+id/titoloStudio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Titolo di studio richiesto: "
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:typeface="serif"/>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:id="@+id/tendina"
+                    android:background="@drawable/button_border"
+                    android:entries="@array/titoliStudio"/>
+
+                <TextView
+                    android:id="@+id/areaLavoro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Area Lavorativa: "
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:typeface="serif"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:id="@+id/edit_areaLavoro"
+                    android:background="@drawable/button_border"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:textAlignment="center"
+                    android:inputType="text"/>
+
+                <TextView
+                    android:id="@+id/skills"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Competenze e soft-skills richieste: "
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:typeface="serif"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/edit_skills"
+                    android:background="@drawable/button_border"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:fontFamily="@font/times_new_roman"
+                    android:textAlignment="center"
+                    android:inputType="text"/>
+
+                <Button
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button3"
+                    android:fontFamily="@font/times_new_roman_bold"
+                    android:onClick="pubblicaBando"
+                    android:text="Pubblica"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

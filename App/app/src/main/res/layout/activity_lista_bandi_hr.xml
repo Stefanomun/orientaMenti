@@ -178,8 +178,8 @@
                     android:layout_height="70dp"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentBottom="true"
-                    android:src="@drawable/add_bando_button"
-                    android:onClick="aggiungiBando"/>
+                    android:onClick="aggiungiBando"
+                    android:src="@drawable/add_bando_button" />
 
             </RelativeLayout>
 

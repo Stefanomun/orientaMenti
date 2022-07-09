@@ -22,6 +22,11 @@ Per accedere come docente usare le seguenti credenziali:
 Per accedere come HR Manager usare le seguenti credenziali:
   - Email: marco.verdi@manager.it
   - Password: manager
+  
+IMPORTANTE<br/>
+Le dimensioni delle view sono state sviluppate seguendo le dimensioni dell'emulatore di uno smartphone Google Pixel 4 XL, pertanto, per visualizzare bene queste view, eseguire l'applicazione su un emulatore con le seguenti proprietà:
+  - Tipo di smartphone: Google Pixel 4 XL
+  - System Image: R (API 30)
 
 INFORMAZIONI<br/>
 Per informazioni, contattare gli sviluppatori agli indirizzi e-mail contenuti nel paragrafo PRESENTAZIONE

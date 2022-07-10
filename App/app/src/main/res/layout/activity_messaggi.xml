@@ -25,7 +25,6 @@
         android:layout_height="250dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:onClick="home"
         app:srcCompat="@drawable/logo" />
 
 
@@ -109,7 +108,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="165dp"
                     android:background="@drawable/button_border"
-                    android:onClick="bando1">
+                    android:onClick="chat">
 
                     <ImageView
                         android:id="@+id/imageMessage2"

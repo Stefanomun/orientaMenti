@@ -88,7 +88,7 @@
                 android:layout_marginRight="25dp"
                 android:background="@drawable/button_border"
                 android:padding="5dp"
-                android:text="Mariarosaria"
+                android:text="Marta"
                 android:textColor="@color/black"
                 android:textSize="20dp"
                 android:typeface="serif" />
@@ -133,19 +133,19 @@
                 android:typeface="serif"/>
 
             <EditText
+                android:id="@+id/email_txt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/email_txt"
-                android:text="mariarosaria.rossi@studenti.it"
-                android:padding="5dp"
-                android:textSize="20dp"
                 android:layout_below="@id/email"
-                android:background="@drawable/button_border"
-                android:textColor="@color/black"
-                android:layout_marginTop="10dp"
                 android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="25dp"
-                android:typeface="serif"/>
+                android:background="@drawable/button_border"
+                android:padding="5dp"
+                android:text="marta.rossi@studenti.it"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:typeface="serif" />
 
             <TextView
                 android:id="@+id/istituto"

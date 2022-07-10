@@ -64,11 +64,11 @@
     <Button
         android:layout_width="170dp"
         android:layout_height="25dp"
-        android:text="REGISTRATI"
-        android:onClick="registrati"
-        android:background="@drawable/button2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="700dp"
-        android:textColor="@color/black"
-        android:fontFamily="@font/times_new_roman"/>
+        android:layout_marginTop="650dp"
+        android:background="@drawable/button2"
+        android:fontFamily="@font/times_new_roman"
+        android:onClick="registrati"
+        android:text="REGISTRATI"
+        android:textColor="@color/black" />
 </RelativeLayout>
